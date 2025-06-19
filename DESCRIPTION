@@ -3,7 +3,7 @@ Type: Package
 Title: Statistical analysis on Archaeomaterial
 Description: Statistical analysis on Archaeomaterial
 Version: 1.0.0
-Authors@R: c(person("Thomas", "Huet", email = "thomas.huet@cnrs.fr", role = c("aut", "cre"), comment=c(ORCID="0000-0002-1112-6122"))
+Authors@R: c(person("Thomas", "Huet", email = "thomas.huet@cnrs.fr", role = c("aut", "cre"), comment=c(ORCID="0000-0002-1112-6122")))
 Depends:
     R (>= 4.0.1)
 License: MIT
