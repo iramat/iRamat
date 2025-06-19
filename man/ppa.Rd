@@ -36,4 +36,5 @@ d$clustered_distribution.png$quadrat
 plot(d$clustered_distribution.png$ripley, main = "clustered distribution")
 # Plot the G-function of the regular distribution
 plot(d$regular_distribution.png$gfunction, main = "regular distribution")
+
 }
