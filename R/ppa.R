@@ -18,7 +18,8 @@
 #' plot(d$clustered_distribution.png$ripley, main = "clustered distribution")
 #' # Plot the G-function of the regular distribution
 #' plot(d$regular_distribution.png$gfunction, main = "regular distribution")
-
+#' 
+#' @export
 ppa <- function(d = NA,
                 root = "https://raw.githubusercontent.com/iramat/iRamat/master/inst/extdata/",
                 img.paths = c("clustered_distribution.png", 
