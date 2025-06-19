@@ -11,6 +11,8 @@ Encoding: UTF-8
 LazyData: true
 Imports:
     hash,
+    jsonlite,
+    httr,
     imager,
     spatstat.geom,
     spatstat.explore
