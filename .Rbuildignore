@@ -1,7 +1,3 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
-results/
-docs/
-tests/
-^codecov\.yml$
-R/^_*.R
+doc/
