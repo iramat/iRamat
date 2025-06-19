@@ -75,7 +75,7 @@ ppa <- function(d = NA,
     }
     if("gfunction" %in% ppa_tests){
       if(verbose){
-        print(paste0("Runs K-Ripley test"))
+        print(paste0("Runs G-function test"))
       }
       d[[im]][["gfunction"]] <- spatstat.explore::Gest(pp)
     }
