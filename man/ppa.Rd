@@ -2,7 +2,7 @@
 % Please edit documentation in R/ppa.R
 \name{ppa}
 \alias{ppa}
-\title{Classify a point pattern distribution}
+\title{Classify a Point Pattern Distribution}
 \usage{
 ppa(
   d = NA,
@@ -14,19 +14,28 @@ ppa(
 )
 }
 \arguments{
-\item{root}{The path to the raster dataset.}
+\item{d}{A hash object. If none is provided, a new one will be created.}
 
-\item{img.paths}{Name of the images.}
+\item{root}{A character string specifying the path to the raster dataset.}
 
-\item{ppa_tests}{A list of test to perform, in a vector. By default: Quadrat Test ("quadrat"), Ripley’s K ("ripley"), G-function ("gfunction"). The vector looks like: c("quadrat", "ripley", "gfunction"). R quadrat.test() function: If p < 0.05 → the pattern is likely non-random (either clustered or regular). R Kest() (Ripley) function: ... R Gest() (G-function) function: ...}
+\item{img.paths}{A character vector containing the names of the images to be analyzed.}
 
-\item{verbose}{if TRUE (by default), verbose.}
+\item{ppa_tests}{A character vector specifying the point pattern analysis tests to perform.
+Supported options are: Quadrat Test (`"quadrat"`), Ripley’s K-function (`"ripley"`), and G-function (`"gfunction"`).  
+By default: `c("quadrat", "ripley", "gfunction")`.  
+
+**Interpretation guidance**:  
+- `quadrat.test()`: if *p* < 0.05 → the pattern is likely non-random (clustered or regular)  
+- `Kest()` (Ripley’s K): analyzes spatial clustering at multiple scales  
+- `Gest()` (G-function): focuses on nearest-neighbor distances}
+
+\item{verbose}{Logical. If `TRUE` (default), prints informative messages during processing.}
 }
 \value{
-Geostatistical test results.
+A list or object containing the results of the specified point pattern analysis tests.
 }
 \description{
-Classify a point pattern distribution from raster (images)
+Classifies a point pattern distribution from raster images using common geostatistical tests.
 }
 \examples{
 d <- ppa()
