@@ -42,7 +42,7 @@ ppa <- function(d = NA,
     img.path <- paste0(root, im)
     img <- imager::load.image(img.path)
     # Convert to grayscale if needed
-    img_gray <- imager::grayscale(img)
+    img_gray <- suppressWarnings(imager::grayscale(img))
     # Threshold to binary (assuming black points on white background)
     img_bin <- img_gray < 0.5
     # Extract black pixel coordinates
@@ -63,19 +63,19 @@ ppa <- function(d = NA,
     
     if("quadrat" %in% ppa_tests){
       if(verbose){
-        print(paste0("Runs Quadrat test"))
+        print(paste0("...runs Quadrat test"))
       }
       d[[im]][["quadrat"]] <- spatstat.explore::quadrat.test(pp, nx = 5, ny = 5)
     }
     if("ripley" %in% ppa_tests){
       if(verbose){
-        print(paste0("Runs K-Ripley test"))
+        print(paste0("...runs K-Ripley test"))
       }
       d[[im]][["ripley"]] <- spatstat.explore::Kest(pp)
     }
     if("gfunction" %in% ppa_tests){
       if(verbose){
-        print(paste0("Runs G-function test"))
+        print(paste0("...runs G-function test"))
       }
       d[[im]][["gfunction"]] <- spatstat.explore::Gest(pp)
     }
