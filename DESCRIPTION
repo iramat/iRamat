@@ -19,7 +19,5 @@ Imports:
     httr,
     imager,
     spatstat.geom,
-    spatstat.explore
-Suggests:
-    
+    spatstat.explore   
 RoxygenNote: 7.3.2
