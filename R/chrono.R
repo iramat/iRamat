@@ -63,7 +63,7 @@ chrono <- function(d = NA,
     ggplot2::geom_segment(ggplot2::aes(
       x = start_num, xend = end_num,
       y = site_name, yend = site_name
-    ), size = 1, na.rm = TRUE) +
+    ), linewidth = 1, na.rm = TRUE) +
     ggplot2::geom_point(ggplot2::aes(x = start_num, y = site_name),
                         data = dplyr::filter(df_parsed, start_uncertain),
                         shape = 4, size = 3, color = "black") +
