@@ -31,15 +31,15 @@ chrono <- function(d = NA,
   # parse all rows (even with NA edtf)
   df_parsed <- d %>%
     dplyr::mutate(
-      start_str = stringr::str_extract(edtf, "^[^/]+"),
-      end_str   = stringr::str_extract(edtf, "(?<=/).+$"),
-      start_num = as.integer(stringr::str_extract(start_str, "-?\\d+")),
-      end_num   = as.integer(stringr::str_extract(end_str, "-?\\d+")),
-      start_uncertain = stringr::str_detect(start_str, "\\?"),
-      end_uncertain   = stringr::str_detect(end_str, "\\?"),
-      start_approx    = stringr::str_detect(start_str, "~"),
-      end_approx      = stringr::str_detect(end_str, "~"),
-      dated           = !is.na(edtf)  # flag for grey labels later
+      start_str = stringr::str_extract(.data$edtf, "^[^/]+"),
+      end_str   = stringr::str_extract(.data$edtf, "(?<=/).+$"),
+      start_num = as.integer(stringr::str_extract(.data$start_str, "-?\\d+")),
+      end_num   = as.integer(stringr::str_extract(.data$end_str, "-?\\d+")),
+      start_uncertain = stringr::str_detect(.data$start_str, "\\?"),
+      end_uncertain   = stringr::str_detect(.data$end_str, "\\?"),
+      start_approx    = stringr::str_detect(.data$start_str, "~"),
+      end_approx      = stringr::str_detect(.data$end_str, "~"),
+      dated           = !is.na(.data$edtf)  # flag for grey labels later
     )
   
   # if not all_dates, drop undated
@@ -50,8 +50,8 @@ chrono <- function(d = NA,
   # reorder sites if seriated
   if(seriated){
     df_parsed <- df_parsed %>%
-      dplyr::mutate(site_name = forcats::fct_reorder(site_name, 
-                                                     dplyr::if_else(dated, start_num, Inf), 
+      dplyr::mutate(site_name = forcats::fct_reorder(.data$site_name, 
+                                                     dplyr::if_else(.data$dated, .data$start_num, Inf), 
                                                      .fun = min, 
                                                      .desc = TRUE))
   }

@@ -1,12 +1,12 @@
 Package: iRamat
 Type: Package
 Title: Statistical analysis on Archaeomaterial
-Description: Statistical analysis on Archaeomaterial
+Description: Statistical analysis on Archaeomaterial.
 Version: 1.0.0
 Authors@R: c(person("Thomas", "Huet", email = "thomas.huet@cnrs.fr", role = c("aut", "cre"), comment=c(ORCID="0000-0002-1112-6122")))
 Depends:
     R (>= 4.0.1)
-License: MIT
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports:
@@ -24,3 +24,5 @@ RoxygenNote: 7.3.2
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+URL: https://github.com/iramat/iRamat
+BugsReport: https://github.com/iramat/iRamat/issues
