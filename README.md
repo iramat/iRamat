@@ -1,3 +1,6 @@
+  [![Codecov test coverage](https://codecov.io/gh/iramat/iRamat/graph/badge.svg)](https://app.codecov.io/gh/iramat/iRamat)
+ [![CRAN status](https://www.r-pkg.org/badges/version/iRamat)](https://CRAN.R-project.org/package=iRamat)
+
 # iRamat R package <img src="doc/img/logo.png" width='100px' align="right"/>
 > R package development
 
