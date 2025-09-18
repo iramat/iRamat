@@ -1,4 +1,4 @@
-# iRamat R package <img src="doc/img/iconr_logo.png" width='100px' align="right"/>
+# iRamat R package <img src="doc/img/logo.png" width='100px' align="right"/>
 > R package development
 
 Install from GitHub
