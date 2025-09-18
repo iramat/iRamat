@@ -93,4 +93,3 @@ chrono <- function(d = NA,
   
   return(gg)
 }
-
