@@ -59,7 +59,7 @@ chrono(d = df$dataset_adisser17)
 ```
 
 <p align="center">
-  <img alt="img-name" src="./doc/chrono_sites_seriated.png" width="600">
+  <img alt="img-name" src="./doc/chrono_sites_seriated.png" width="700">
 </p>
 
 ### PeriodO timelines
@@ -71,7 +71,7 @@ periodo(min_date = -700, max_date = 0, use_periodo = TRUE, time_match = 1)
 ```
 
 <p align="center">
-  <img alt="img-name" src="./doc/periodo_periods_seriated.png" width="600">
+  <img alt="img-name" src="./doc/periodo_periods_seriated.png" width="700">
 </p>
 
 ### Sites and PeriodO timelines
@@ -86,7 +86,7 @@ ggpubr::ggarrange(plots$sites, plots$periodo$periodo,
 ```
 
 <p align="center">
-  <img alt="img-name" src="./doc/chrono_sites_and_periodo.png" width="600">
+  <img alt="img-name" src="./doc/chrono_sites_and_periodo.png" width="700">
 </p>
 
 ## Point Pattern and spatial analysis
@@ -142,21 +142,21 @@ Quadrats: 5 by 5 grid of tiles
 #### K-Ripley test
 
 ```R
-plot(d$clustered_distribution.png$ripley, main = "clustered distribution")
+plot(d[["clustered_distribution.png"]]$ripley, main = "clustered distribution")
 ```
 
 <p align="center">
-  <img alt="img-name" src="./doc/ppa_kripley.png" width="600">
+  <img alt="img-name" src="./doc/ppa_kripley.png" width="500">
 </p>
 
 #### G-function test
 
 ```R
-plot(d$regular_distribution.png$gfunction, main = "regular distribution")
+plot(d[['regular_distribution.png']]$gfunction, main = "regular distribution")
 ```
 
 <p align="center">
-  <img alt="img-name" src="./doc/ppa_gfunction.png" width="600">
+  <img alt="img-name" src="./doc/ppa_gfunction.png" width="500">
 </p>
 
 
