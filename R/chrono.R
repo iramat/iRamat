@@ -1,95 +1,139 @@
 #' Create a timeline of a selected dataset
 #'
-#' @name chrono
-#' @description Read EDTF data and return a ggplot timeline
+#' This function parses EDTF-formatted dates from a dataset and returns one or two
+#' ggplot2 timelines: a site-based timeline and, optionally, a PeriodO timeline
+#' for comparison.
 #'
-#' @param d A dataframe 
-#' @param seriated If TRUE (default), re-order by minimum (earliest) date.
-#' @param all_dates If TRUE, show all sites, including those with no date. Default: FALSE.
-#' @param verbose If TRUE (default), verbose.
+#' @param d A data frame containing at least a column `edtf` with EDTF dates
+#'   and a column `site_name`.
+#' @param use_periodo Logical, if TRUE (default FALSE), also fetch and plot periods
+#'   from a PeriodO authority.
+#' @param periodo_authority A string. URL of a PeriodO authority
+#'   (default: "https://n2t.net/ark:/99152/p02chr4").
+#' @param seriated Logical, if TRUE (default), reorder sites/periods by earliest start date.
+#' @param all_dates Logical, if TRUE, include sites with missing/NA dates (default: FALSE).
+#' @param time_match Numeric between 0 and 1. Minimum proportion of temporal overlap
+#'   required between dataset range and a period to include the period (default: 0.9).
+#' @param verbose Logical, if TRUE (default), print progress messages.
 #'
-#' @return A ggplot graph.
+#' @return A list of ggplot2 objects with elements:
+#'   \describe{
+#'     \item{sites}{A timeline of dataset sites (always returned).}
+#'     \item{periodo}{A PeriodO timeline, if `use_periodo = TRUE`, otherwise NULL.}
+#'   }
 #'
 #' @examples
+#' \dontrun{
 #' df <- db_api_connect()
-#' # Show the dataset timeline (seriated)
-#' chrono(df$dataset_adisser17)
-#' 
-#' # Show the dataset timeline (not seriated)
-#' chrono(df$dataset_adisser17, seriated = FALSE)
-#' 
-#' # Show all sites (including those with no date)
-#' chrono(df$dataset_adisser17, all_dates = TRUE)
-#' 
+#' plots <- chrono(df$dataset_adisser17, use_periodo = TRUE)
+#' ggpubr::ggarrange(plots$sites, plots$periodo, heights = c(1,2), ncol = 1, align = "v")
+#' }
+#'
+#' @import dplyr ggplot2 stringr forcats readr
 #' @export
-chrono <- function(d = NA,
+chrono <- function(d,
+                   use_periodo = FALSE,
+                   periodo_authority = "https://n2t.net/ark:/99152/p02chr4",
                    seriated = TRUE,
                    all_dates = FALSE,
-                   verbose = TRUE){
-  `%>%` <- dplyr::`%>%` 
+                   time_match = 0.9,
+                   verbose = TRUE) {
   
-  # parse all rows (even with NA edtf)
-  df_parsed <- d %>%
+  # --- 1. Parse dataset
+  df_sites <- d %>%
     dplyr::mutate(
-      start_str = stringr::str_extract(.data$edtf, "^[^/]+"),
-      end_str   = stringr::str_extract(.data$edtf, "(?<=/).+$"),
-      start_num = as.integer(stringr::str_extract(.data$start_str, "-?\\d+")),
-      end_num   = as.integer(stringr::str_extract(.data$end_str, "-?\\d+")),
-      start_uncertain = stringr::str_detect(.data$start_str, "\\?"),
-      end_uncertain   = stringr::str_detect(.data$end_str, "\\?"),
-      start_approx    = stringr::str_detect(.data$start_str, "~"),
-      end_approx      = stringr::str_detect(.data$end_str, "~"),
-      dated           = !is.na(.data$edtf)  # flag for grey labels later
+      start_str = stringr::str_extract(edtf, "^[^/]+"),
+      end_str   = stringr::str_extract(edtf, "(?<=/).+$"),
+      start_num = as.integer(stringr::str_extract(start_str, "-?\\d+")),
+      end_num   = as.integer(stringr::str_extract(end_str, "-?\\d+")),
+      start_uncertain = stringr::str_detect(start_str, "\\?"),
+      end_uncertain   = stringr::str_detect(end_str, "\\?"),
+      start_approx    = stringr::str_detect(start_str, "~"),
+      end_approx      = stringr::str_detect(end_str, "~"),
+      dated           = !is.na(edtf),
+      type = dplyr::case_when(
+        start_uncertain | end_uncertain ~ "uncertain",
+        start_approx | end_approx       ~ "approximate",
+        TRUE                            ~ "exact"
+      )
     )
   
-  # if not all_dates, drop undated
-  if(!all_dates){
-    df_parsed <- dplyr::filter(df_parsed, dated)
+  if (!all_dates) {
+    df_sites <- dplyr::filter(df_sites, dated)
   }
   
-  # reorder sites if seriated
-  if(seriated){
-    df_parsed <- df_parsed %>%
-      dplyr::mutate(site_name = forcats::fct_reorder(.data$site_name, 
-                                                     dplyr::if_else(.data$dated, .data$start_num, Inf), 
-                                                     .fun = min, 
-                                                     .desc = TRUE))
+  if (seriated) {
+    df_sites <- df_sites %>%
+      dplyr::mutate(site_name = forcats::fct_reorder(
+        site_name,
+        dplyr::if_else(dated, start_num, Inf),
+        .fun = min, .desc = TRUE
+      ))
+  } else {
+    df_sites <- df_sites %>%
+      dplyr::mutate(site_name = factor(site_name))
   }
-  unique_sitename <- length(unique(df_parsed$site_name))
-  site_legend <- ifelse(seriated, "Sites (ordered by earliest date)", "Sites")
-  tit <- paste0("Timeline of ", unique_sitename," sites with EDTF intervals")
   
-  gg <- ggplot2::ggplot(df_parsed) +
-    ggplot2::geom_segment(ggplot2::aes(
-      x = start_num, xend = end_num,
-      y = site_name, yend = site_name
-    ), linewidth = 1, na.rm = TRUE) +
-    ggplot2::geom_point(ggplot2::aes(x = start_num, y = site_name),
-                        data = dplyr::filter(df_parsed, start_uncertain),
-                        shape = 4, size = 3, color = "black") +
-    ggplot2::geom_point(ggplot2::aes(x = end_num, y = site_name),
-                        data = dplyr::filter(df_parsed, end_uncertain),
-                        shape = 4, size = 3, color = "black") +
-    ggplot2::geom_point(ggplot2::aes(x = start_num, y = site_name),
-                        data = dplyr::filter(df_parsed, start_approx),
-                        shape = 3, size = 3, color = "black") +
-    ggplot2::geom_point(ggplot2::aes(x = end_num, y = site_name),
-                        data = dplyr::filter(df_parsed, end_approx),
-                        shape = 3, size = 3, color = "black") +
+  min_date <- min(df_sites$start_num, na.rm = TRUE)
+  max_date <- max(df_sites$end_num, na.rm = TRUE)
+  if (verbose) message("Dataset range sites: ", min_date, " to ", max_date)
+  
+  unique_sitename <- length(unique(df_sites$site_name))
+  tit <- paste0("Timeline of ", unique_sitename, " sites with EDTF intervals")
+  
+  # --- 2. Optionally build PeriodO plot
+  p_periodo <- NULL
+  if (use_periodo) {
+    p_periodo <- periodo(
+      periodo_authority = periodo_authority,
+      use_periodo = TRUE,
+      min_date = min_date,
+      max_date = max_date,
+      seriated = seriated,
+      time_match = time_match,
+      verbose = verbose
+    )
+  }
+  
+  # --- 3. Build site plot
+  p_sites <- ggplot2::ggplot(df_sites) +
+    ggplot2::geom_segment(
+      ggplot2::aes(x = start_num, xend = end_num,
+                   y = site_name, yend = site_name, linetype = type),
+      linewidth = 1, color = "gray30", na.rm = TRUE
+    ) +
+    ggplot2::geom_point(
+      ggplot2::aes(x = start_num, y = site_name, shape = type),
+      size = 3, color = "black", na.rm = TRUE
+    ) +
+    ggplot2::geom_point(
+      ggplot2::aes(x = end_num, y = site_name, shape = type),
+      size = 3, color = "black", na.rm = TRUE
+    ) +
+    ggplot2::scale_linetype_manual(values = c(
+      exact = "solid",
+      uncertain = "dashed",
+      approximate = "solid"
+    )) +
+    ggplot2::scale_shape_manual(values = c(
+      exact       = 16,
+      uncertain   = 1,
+      approximate = 15
+    )) +
+    ggplot2::scale_x_continuous(limits = c(min_date, max_date), expand = c(0, 0)) +
     ggplot2::theme_minimal() +
     ggplot2::labs(
-      x = "BCE/CE",
-      y = site_legend,
-      title = tit,
-      subtitle = "Cross = uncertain (?), Plus = approximate (~)"
+      x = if (use_periodo) NULL else "BCE/CE",
+      y = "Sites",
+      title = tit
     ) +
-    # Grey labels for undated sites
     ggplot2::theme(
       axis.text.y = ggplot2::element_text(
-        colour = ifelse(levels(df_parsed$site_name) %in% df_parsed$site_name[df_parsed$dated], 
+        colour = ifelse(levels(df_sites$site_name) %in% df_sites$site_name[df_sites$dated],
                         "black", "grey50")
       )
     )
   
-  return(gg)
+  # --- 4. Return both plots
+  return(list(sites = p_sites, periodo = p_periodo))
 }

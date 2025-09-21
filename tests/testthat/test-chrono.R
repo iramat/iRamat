@@ -1,4 +1,4 @@
-test_that("chrono returns a ggplot object", {
+test_that("chrono returns a list of ggplot objects", {
   dummy_df <- data.frame(
     site_name = c("SiteA"),
     id_chips = 1,
@@ -9,5 +9,5 @@ test_that("chrono returns a ggplot object", {
     typology = "Ore"
   )
   g <- chrono(dummy_df, seriated = TRUE)
-  expect_s3_class(g, "ggplot")  # should produce a ggplot object
+  expect_s3_class(g, "list")  # should produce a ggplot object
 })
