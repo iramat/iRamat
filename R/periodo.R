@@ -30,7 +30,7 @@
 #' periodo()
 #'
 #' # Restrict to a specific interval and require exact overlap
-#' periodo(min_date = -500, max_date = 500, use_periodo = TRUE, time_match = 1)
+#' periodo(min_date = -700, max_date = 0, use_periodo = TRUE, time_match = 1)
 #' }
 #'
 #' @import dplyr ggplot2 forcats readr jsonlite

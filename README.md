@@ -1,12 +1,16 @@
   [![R-CMD-check](https://github.com/iramat/iRamat/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/iramat/iRamat/actions/workflows/R-CMD-check.yaml) [![Codecov test coverage](https://codecov.io/gh/iramat/iRamat/graph/badge.svg)](https://app.codecov.io/gh/iramat/iRamat)
  [![CRAN status](https://www.r-pkg.org/badges/version/iRamat)](https://CRAN.R-project.org/package=iRamat)
 
-# iRamat R package <img src="doc/img/logo.png" width='100px' align="right"/>
-> R package development
+# iRamat <img src="doc/img/logo.png" width="100" align="right"/>
+
+Tools for archaeometry and archaeometallurgy in R
+
+---
 
 Install from GitHub
 
 ```R
+# installinstall.packages("devtools")
 devtools::install_github("iramat/iRamat")
 ```
 
@@ -23,11 +27,20 @@ Connect the database API with the default parameters, and show the first row, us
 
 ```R
 df <- db_api_connect()
-head(df$dataset_adisser17, 2)
 ```
 
-Gives:
+The default dataset is dataset_adisser17
 
+```R
+names(df)
+# [1] "dataset_adisser17"
+```
+
+The dataset can by accessed by its name:
+
+```R
+head(df$dataset_adisser17, 2)
+```
 
 |site_name    | id_chips|sample_name |typology |   na|   mg|   al|    si|    p|    s| cl|    k|   ca|   mn|    fe|   loi| ag|  arsenic|     ba|     be|     bi|    cd|     ce|     co|    cr|    cs|     cu|     dy|     er|    eu| deltafe56| deltafe57|    ga|     gd|   ge|    hf|    ho| indium|    la| li|    lu|    mo|     nb|    nd|     ni| os|os187_os188 | os187_os186|       pb| pd|     pr|     rb| ru|     sb|     sc| se|     sm|    sn|     sr| sr87_sr86|    ta|    tb| te|    th|    ti| tl|    tm|     u|      v|     w|      y|     yb|     zn|     zr|major_method |major_analytical_setup                    |trace_method |trace_analytical_setup                    |reference                                                                                                                                                                                                                                                          |url                                                         |
 |:------------|--------:|:-----------|:--------|----:|----:|----:|-----:|----:|----:|--:|----:|----:|----:|-----:|-----:|--:|--------:|------:|------:|------:|-----:|------:|------:|-----:|-----:|------:|------:|------:|-----:|---------:|---------:|-----:|------:|----:|-----:|-----:|------:|-----:|--:|-----:|-----:|------:|-----:|------:|--:|:-----------|-----------:|--------:|--:|------:|------:|--:|------:|------:|--:|------:|-----:|------:|---------:|-----:|-----:|--:|-----:|-----:|--:|-----:|-----:|------:|-----:|------:|------:|------:|------:|:------------|:-----------------------------------------|:------------|:-----------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------|
@@ -49,16 +62,56 @@ chrono(d = df$dataset_adisser17)
   <img alt="img-name" src="./doc/chrono_sites_seriated.png" width="600">
 </p>
 
+### PeriodO timelines
+
+PeriodO periods can also be displayed. The default Periodo authority (i.e. a set of different periods identified by the same author) is [INRAP: Institut National de Recherches Archeologiques Preventive](https://n2t.net/ark:/99152/p02chr4).
+
+```R
+periodo(min_date = -700, max_date = 0, use_periodo = TRUE, time_match = 1)
+```
+
+<p align="center">
+  <img alt="img-name" src="./doc/periodo_periods_seriated.png" width="600">
+</p>
+
+### Sites and PeriodO timelines
+
+Site and PeriodO timelines can be merged into a single plot:
+
+```r
+df <- db_api_connect()
+plots <- chrono(df$dataset_adisser17, use_periodo = TRUE)
+ggpubr::ggarrange(plots$sites, plots$periodo$periodo,
+                  heights = c(1, 2), ncol = 1, align = "v")
+```
+
+<p align="center">
+  <img alt="img-name" src="./doc/chrono_sites_and_periodo.png" width="600">
+</p>
 
 ## Point Pattern and spatial analysis
 
 ### Point Pattern Analysis
 
-The `ppa()` function performs different point pattern analysis (ppa) on raster. It could be used to assess if a point distribution is regular, clustered or random.
+The `ppa()` function performs different point pattern analysis (PPA) on raster grids or spatial data. It could be used to assess if a point distribution is regular, clustered or random.
 
-| regular | clustered | random |
-|----------|----------|----------|
-| ![](https://raw.githubusercontent.com/iramat/iRamat/master/inst/extdata/regular_distribution.png) | ![](https://raw.githubusercontent.com/iramat/iRamat/master/inst/extdata/clustered_distribution.png) | ![](https://raw.githubusercontent.com/iramat/iRamat/master/inst/extdata/random_distribution.png) |
+<div align="center">
+
+<table>
+  <tr>
+    <th>regular</th>
+    <th>clustered</th>
+    <th>random</th>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/iramat/iRamat/master/inst/extdata/regular_distribution.png" width="250"/></td>
+    <td><img src="https://raw.githubusercontent.com/iramat/iRamat/master/inst/extdata/clustered_distribution.png" width="250"/></td>
+    <td><img src="https://raw.githubusercontent.com/iramat/iRamat/master/inst/extdata/random_distribution.png" width="250"/></td>
+  </tr>
+</table>
+
+</div>
+
 
 Run the function with its default parameters:
 
@@ -66,17 +119,15 @@ Run the function with its default parameters:
 d <- ppa()
 ```
 
-`d` is an hash object (a Python dictionary-like) that stores different test outputs: Quadrat test, K-Ripley test, G-function test. Let's call some of these results:
+`d` is a hash-like object (similar to a Python dictionary) that stores different test outputs: Quadrat test, K-Ripley test, G-function test. Let's call some of these results:
 
 #### Quadrat test
 
 Check the Quadrat test of the clustered distribution
 
 ```R
-d$clustered_distribution.png$quadrat
+d[["clustered_distribution.png"]]$quadrat
 ```
-
-Gives:
 
 ```
 	Chi-squared test of CSR using quadrat counts
@@ -94,8 +145,6 @@ Quadrats: 5 by 5 grid of tiles
 plot(d$clustered_distribution.png$ripley, main = "clustered distribution")
 ```
 
-Gives:
-
 <p align="center">
   <img alt="img-name" src="./doc/ppa_kripley.png" width="600">
 </p>
@@ -105,8 +154,6 @@ Gives:
 ```R
 plot(d$regular_distribution.png$gfunction, main = "regular distribution")
 ```
-
-Gives:
 
 <p align="center">
   <img alt="img-name" src="./doc/ppa_gfunction.png" width="600">
