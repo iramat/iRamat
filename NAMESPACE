@@ -2,4 +2,11 @@
 
 export(chrono)
 export(db_api_connect)
+export(periodo)
 export(ppa)
+import(dplyr)
+import(forcats)
+import(ggplot2)
+import(jsonlite)
+import(readr)
+import(stringr)

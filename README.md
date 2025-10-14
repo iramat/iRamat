@@ -29,7 +29,7 @@ Connect the database API with the default parameters, and show the first row, us
 df <- db_api_connect()
 ```
 
-The default dataset is dataset_adisser17
+The default dataset is `dataset_adisser17`
 
 ```R
 names(df)

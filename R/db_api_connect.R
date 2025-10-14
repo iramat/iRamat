@@ -1,7 +1,7 @@
-#' Connect the DB API and return an R object (dataframe, etc.)
+#' Connect the CHIPS DB API and return an R object (dataframe, etc.)
 #'
 #' @name db_api_connect
-#' @description Connect the DB API and return an R object (dataframe, etc.)
+#' @description Connect the CHIPS DB API and return an R object (dataframe, etc.). The default dataset is dataset_adisser17, accessed at <http://157.136.252.188:3000/dataset_adisser17>
 #'
 #' @param d A hash object. If none is provided, a new one will be created.
 #' @param api_url An URL landing to an API. Default: 'dataset_adisser17'.

@@ -137,3 +137,7 @@ chrono <- function(d,
   # --- 4. Return both plots
   return(list(sites = p_sites, periodo = p_periodo))
 }
+
+# df <- db_api_connect()
+# plots <- chrono(df$dataset_adisser17, use_periodo = TRUE)
+# ggpubr::ggarrange(plots$sites, plots$periodo, heights = c(1,2), ncol = 1, align = "v")

@@ -2,7 +2,7 @@
 % Please edit documentation in R/db_api_connect.R
 \name{db_api_connect}
 \alias{db_api_connect}
-\title{Connect the DB API and return an R object (dataframe, etc.)}
+\title{Connect the CHIPS DB API and return an R object (dataframe, etc.)}
 \usage{
 db_api_connect(
   d = NA,
@@ -24,7 +24,7 @@ db_api_connect(
 An R object.
 }
 \description{
-Connect the DB API and return an R object (dataframe, etc.)
+Connect the CHIPS DB API and return an R object (dataframe, etc.). The default dataset is dataset_adisser17, accessed at <http://157.136.252.188:3000/dataset_adisser17>
 }
 \examples{
 df <- db_api_connect()

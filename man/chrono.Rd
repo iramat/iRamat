@@ -4,32 +4,52 @@
 \alias{chrono}
 \title{Create a timeline of a selected dataset}
 \usage{
-chrono(d = NA, seriated = TRUE, all_dates = FALSE, verbose = TRUE)
+chrono(
+  d,
+  use_periodo = FALSE,
+  periodo_authority = "https://n2t.net/ark:/99152/p02chr4",
+  seriated = TRUE,
+  all_dates = FALSE,
+  time_match = 0.9,
+  verbose = TRUE
+)
 }
 \arguments{
-\item{d}{A dataframe}
+\item{d}{A data frame containing at least a column `edtf` with EDTF dates
+and a column `site_name`.}
 
-\item{seriated}{If TRUE (default), re-order by minimum (earliest) date.}
+\item{use_periodo}{Logical, if TRUE (default FALSE), also fetch and plot periods
+from a PeriodO authority.}
 
-\item{all_dates}{If TRUE, show all sites, including those with no date. Default: FALSE.}
+\item{periodo_authority}{A string. URL of a PeriodO authority
+(default: "https://n2t.net/ark:/99152/p02chr4").}
 
-\item{verbose}{If TRUE (default), verbose.}
+\item{seriated}{Logical, if TRUE (default), reorder sites/periods by earliest start date.}
+
+\item{all_dates}{Logical, if TRUE, include sites with missing/NA dates (default: FALSE).}
+
+\item{time_match}{Numeric between 0 and 1. Minimum proportion of temporal overlap
+required between dataset range and a period to include the period (default: 0.9).}
+
+\item{verbose}{Logical, if TRUE (default), print progress messages.}
 }
 \value{
-A ggplot graph.
+A list of ggplot2 objects with elements:
+  \describe{
+    \item{sites}{A timeline of dataset sites (always returned).}
+    \item{periodo}{A PeriodO timeline, if `use_periodo = TRUE`, otherwise NULL.}
+  }
 }
 \description{
-Read EDTF data and return a ggplot timeline
+This function parses EDTF-formatted dates from a dataset and returns one or two
+ggplot2 timelines: a site-based timeline and, optionally, a PeriodO timeline
+for comparison.
 }
 \examples{
+\dontrun{
 df <- db_api_connect()
-# Show the dataset timeline (seriated)
-chrono(df$dataset_adisser17)
-
-# Show the dataset timeline (not seriated)
-chrono(df$dataset_adisser17, seriated = FALSE)
-
-# Show all sites (including those with no date)
-chrono(df$dataset_adisser17, all_dates = TRUE)
+plots <- chrono(df$dataset_adisser17, use_periodo = TRUE)
+ggpubr::ggarrange(plots$sites, plots$periodo, heights = c(1,2), ncol = 1, align = "v")
+}
 
 }
