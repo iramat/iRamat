@@ -159,4 +159,8 @@ plot(d[['regular_distribution.png']]$gfunction, main = "regular distribution")
   <img alt="img-name" src="./doc/ppa_gfunction.png" width="500">
 </p>
 
+---
 
+## Talks
+
+- WAIA: **Présentation du package R `iRamat`** - [support](https://iramat.github.io/iramat-dev/talks/2025-wiai-iRamat/pres) | [video](https://sdrive.cnrs.fr/s/yP5DFgGXtF9ERQH)
