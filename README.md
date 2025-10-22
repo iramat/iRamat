@@ -79,7 +79,8 @@ periodo(min_date = -700, max_date = 0, use_periodo = TRUE, time_match = 1)
 PeriodO records the spatial extent of periods. In the `periodo()` function, this spatial extent is represented by the variable `location`. Here, the PeriodO authority [ArkeoGIS authors](http://n2t.net/ark:/99152/p09hq4n) is used for periods in France only.
 
 ```R
-periodo(periodo_authority = "http://n2t.net/ark:/99152/p09hq4n", min_date = -500, max_date = 500, use_periodo = TRUE, time_match = 1, location = "France")
+periodo(periodo_authority = "http://n2t.net/ark:/99152/p09hq4n", min_date = -500, max_date = 500, 
+        use_periodo = TRUE, time_match = 1, location = "France")
 ```
 
 <p align="center">
