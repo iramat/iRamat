@@ -17,6 +17,7 @@
 #'   required between a period and the given [min_date, max_date] interval
 #'   for the period to be included. Default: `NA` (no filtering).
 #' @param seriated Logical, if TRUE (default), reorder periods by earliest start date.
+#' @param location Controlled value, default NA. Will subset the periods based on a location (e.g. France).
 #' @param verbose Logical, if TRUE (default), print progress messages.
 #'
 #' @return A list with one ggplot2 object:
@@ -31,6 +32,9 @@
 #'
 #' # Restrict to a specific interval and require exact overlap
 #' periodo(min_date = -700, max_date = 0, use_periodo = TRUE, time_match = 1)
+#' 
+#' # Authority ArkeOpen, France only
+#' periodo(periodo_authority = "http://n2t.net/ark:/99152/p09hq4n", min_date = -500, max_date = 500, use_periodo = TRUE, time_match = 1, location = "France")
 #' }
 #'
 #' @import dplyr ggplot2 forcats readr jsonlite
@@ -40,6 +44,7 @@ periodo <- function(periodo_authority = "https://n2t.net/ark:/99152/p02chr4",
                     min_date = NA,
                     max_date = NA,
                     time_match = NA,
+                    location = NA,
                     seriated = TRUE,
                     verbose = TRUE) {
   
@@ -78,13 +83,20 @@ periodo <- function(periodo_authority = "https://n2t.net/ark:/99152/p02chr4",
       dplyr::mutate(site_name = factor(label))
   }
   
-  # --- 4. Optionally reorder
+  # --- 4. Optionally filter on spatial_coverage
+  if(!is.na(location)) {
+    if (verbose) message("Dataset location PeriodO: ", location)
+    df_periodo <- subset(df_periodo, grepl(location, spatial_coverage))
+    df_periodo <- as.data.frame(df_periodo)
+  }
+  
+  # --- 5. Optionally reorder
   if (seriated) {
     df_periodo <- df_periodo %>%
       dplyr::mutate(site_name = forcats::fct_reorder(site_name, start_num, .desc = TRUE))
   }
   
-  # --- 5. Plot
+  # --- 6. Plot
   unique_periods <- length(unique(df_periodo$label))
   tit_period <- paste0("Timeline of ", unique_periods, " periods")
   capt <- paste0("PeriodO authority: ", periodo_creators_str, " (", periodo_authority, ")")
@@ -113,3 +125,6 @@ periodo <- function(periodo_authority = "https://n2t.net/ark:/99152/p02chr4",
   
   return(p_periodo)
 }
+
+# gg <- periodo(periodo_authority = "http://n2t.net/ark:/99152/p09hq4n", min_date = -500, max_date = 500, use_periodo = TRUE, time_match = 1, location = "France")
+# ggplot2::ggsave(gg, filename = "C:/Users/TH282424/Rprojects/iRamat/doc/periodo_periods_seriated_2.png", height = 10, width = 10)
