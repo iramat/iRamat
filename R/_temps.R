@@ -45,7 +45,6 @@
 #' @export
 db_api_connect <- function(d = NA,
                            api_url = "http://157.136.252.188:3000/dataset_adisser17",
-                           api_list <- "https://raw.githubusercontent.com/iramat/iramat-dev/main/dbs/chips/urls_data.tsv",
                            output_format = "dataframe",
                            verbose = TRUE,
                            all_datasets = FALSE){
@@ -70,15 +69,19 @@ db_api_connect <- function(d = NA,
     df
   }
   
+  # ---------------------------------------------------------------------------
+  # MODE 1: all_datasets = TRUE → read GitHub TSV and merge all datasets
+  # ---------------------------------------------------------------------------
   if (isTRUE(all_datasets)) {
     if (verbose) {
       message("all_datasets = TRUE: collecting all datasets from urls_data.tsv")
     }
     
     # Raw URL for the TSV file on GitHub
+    urls_file <- "https://raw.githubusercontent.com/iramat/iramat-dev/main/dbs/chips/urls_data.tsv"
     
     urls_df <- utils::read.table(
-      api_list,
+      urls_file,
       header = TRUE,
       sep = "\t",
       stringsAsFactors = FALSE,
@@ -126,6 +129,9 @@ db_api_connect <- function(d = NA,
     return(merged_df)
   }
   
+  # ---------------------------------------------------------------------------
+  # MODE 2: original behaviour → single API URL into a hash
+  # ---------------------------------------------------------------------------
   data.label <- unlist(strsplit(api_url, "/"))
   df.label   <- data.label[length(data.label)]
   
@@ -141,3 +147,5 @@ db_api_connect <- function(d = NA,
   
   return(d)
 }
+
+df_all <- db_api_connect(all_datasets = TRUE)
