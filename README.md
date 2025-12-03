@@ -10,7 +10,7 @@ Tools for archaeometry and archaeometallurgy in R
 Install from GitHub
 
 ```R
-# installinstall.packages("devtools")
+# install.packages("devtools")
 devtools::install_github("iramat/iRamat")
 ```
 
