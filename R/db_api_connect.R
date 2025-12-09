@@ -45,7 +45,7 @@
 #' @export
 db_api_connect <- function(d = NA,
                            api_url = "http://157.136.252.188:3000/dataset_adisser17",
-                           api_list <- "https://raw.githubusercontent.com/iramat/iramat-dev/main/dbs/chips/urls_data.tsv",
+                           api_list = "https://raw.githubusercontent.com/iramat/iramat-dev/main/dbs/chips/urls_data.tsv",
                            output_format = "dataframe",
                            verbose = TRUE,
                            all_datasets = FALSE){
