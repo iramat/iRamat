@@ -2,7 +2,7 @@ Package: iRamat
 Type: Package
 Title: Statistical analysis on Archaeomaterial
 Description: Statistical analysis on Archaeomaterial.
-Version: 1.0.0
+Version: 0.0.0.9
 Authors@R: c(person("Thomas", "Huet", email = "thomas.huet@cnrs.fr", role = c("aut", "cre"), comment=c(ORCID="0000-0002-1112-6122")))
 Depends:
     R (>= 4.0.1)
@@ -11,15 +11,15 @@ Encoding: UTF-8
 LazyData: true
 Imports:
     dplyr,
-    ggplot2,
     forcats,
-    stringr,
+    ggplot2,
     hash,
-    jsonlite,
     httr,
+    jsonlite,
     imager,
     spatstat.geom,
-    spatstat.explore   
+    spatstat.explore,
+    stringr
 RoxygenNote: 7.3.2
 Suggests: 
     testthat (>= 3.0.0),

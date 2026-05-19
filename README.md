@@ -1,5 +1,4 @@
   [![R-CMD-check](https://github.com/iramat/iRamat/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/iramat/iRamat/actions/workflows/R-CMD-check.yaml) [![Codecov test coverage](https://codecov.io/gh/iramat/iRamat/graph/badge.svg)](https://app.codecov.io/gh/iramat/iRamat)
- [![CRAN status](https://www.r-pkg.org/badges/version/iRamat)](https://CRAN.R-project.org/package=iRamat)
 
 # iRamat <img src="doc/img/logo.png" width="100" align="right"/>
 
