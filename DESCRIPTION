@@ -17,9 +17,10 @@ Imports:
     httr,
     jsonlite,
     imager,
+    readr,
     spatstat.geom,
     spatstat.explore,
-    stringr
+    stringr,
 RoxygenNote: 7.3.2
 Suggests: 
     testthat (>= 3.0.0),
