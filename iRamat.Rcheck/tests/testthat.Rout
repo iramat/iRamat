@@ -1,0 +1,72 @@
+
+R version 4.4.2 (2024-10-31 ucrt) -- "Pile of Leaves"
+Copyright (C) 2024 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # This file is part of the standard setup for testthat.
+> # It is recommended that you do not modify it.
+> #
+> # Where should you do additional test configuration?
+> # Learn more about the roles of various files in:
+> # * https://r-pkgs.org/testing-design.html#sec-tests-files-overview
+> # * https://testthat.r-lib.org/articles/special-files.html
+> 
+> library(testthat)
+Warning message:
+package 'testthat' was built under R version 4.4.3 
+> library(iRamat)
+> 
+> test_check("iRamat")
+Dataset range sites: -25 to 450
+Dataset range sites: -25 to 450
+Read PeriodO authority name and periods
+Could not fetch live PeriodO JSON. Using local cache instead.
+Original error: Not Found (HTTP 404).
+Dataset range PeriodO: -25 to 450
+Will store the results in a new variable (hash).
+Requesting: http://157.136.252.188:3000/dataset_adisser17
+[1] "Will store the results in a new variable"
+[1] "Read image: clustered_distribution.png"
+trying URL 'https://raw.githubusercontent.com/iramat/iRamat/master/inst/extdata/clustered_distribution.png'
+Content type 'image/png' length 583 bytes
+==================================================
+downloaded 583 bytes
+
+[1] "...runs Quadrat test"
+[1] "...runs K-Ripley test"
+[1] "...runs G-function test"
+[1] "Read image: random_distribution.png"
+trying URL 'https://raw.githubusercontent.com/iramat/iRamat/master/inst/extdata/random_distribution.png'
+Content type 'image/png' length 737 bytes
+==================================================
+downloaded 737 bytes
+
+[1] "...runs Quadrat test"
+[1] "...runs K-Ripley test"
+[1] "...runs G-function test"
+[1] "Read image: regular_distribution.png"
+trying URL 'https://raw.githubusercontent.com/iramat/iRamat/master/inst/extdata/regular_distribution.png'
+Content type 'image/png' length 181 bytes
+==================================================
+downloaded 181 bytes
+
+[1] "...runs Quadrat test"
+[1] "...runs K-Ripley test"
+[1] "...runs G-function test"
+[ FAIL 0 | WARN 0 | SKIP 0 | PASS 10 ]
+> 
+> proc.time()
+   user  system elapsed 
+   0.93    0.10    8.07 

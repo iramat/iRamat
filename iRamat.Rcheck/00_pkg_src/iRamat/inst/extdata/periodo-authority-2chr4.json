@@ -1,0 +1,6392 @@
+{
+	"id": "p02chr4",
+	"type": "Authority",
+	"periods": {
+		"p02chr45bn8": {
+			"id": "p02chr45bn8",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrt2mYePteUrw",
+			"label": "Trias",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Triassic"
+				],
+				"fr": [
+					"Triassique",
+					"Trias"
+				],
+				"de": [
+					"Trias"
+				],
+				"nl": [
+					"Trias"
+				],
+				"it": [
+					"Triassico"
+				],
+				"ar": [
+					"ترياس"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-252200000"
+				},
+				"label": "-252200000"
+			},
+			"stop": {
+				"in": {
+					"year": "-201300000"
+				},
+				"label": "-201300000"
+			},
+			"note": "Le Trias est un système géologique, subdivision de l'ère Mésozoïque comprise entre −252,2 ± 0,5 et −201,3 ± 0,2 millions d'années. Le Trias est précédé par le Permien et suivi par le Jurassique. Défini et nommé par le géologue allemand Friedrich August von Alberti en 1834, le Trias doit son nom aux trois unités (litho-)stratigraphiques dont il se compose en Europe centrale : Buntsandstein (grès bigarré), Muschelkalk (calcaire coquillier) et Keuper. La régularité de ces dépôts en Europe centrale a permis aux sédimentologues de mettre en évidence les principes de la stratigraphie. (Wikipédia)"
+		},
+		"p02chr4f76d": {
+			"id": "p02chr4f76d",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtvjRVKSWo8I",
+			"label": "Secondaire",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Secondary"
+				],
+				"fr": [
+					"Mésozoïque",
+					"Ère des reptiles",
+					"ère secondaire",
+					"Ère secondaire",
+					"Secondaire"
+				],
+				"ar": [
+					"الحقب الجيولوجي الثاني"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-252170000"
+				},
+				"label": "-252170000"
+			},
+			"stop": {
+				"in": {
+					"year": "-66000001"
+				},
+				"label": "-66000001"
+			},
+			"note": "Ère géologique ayant duré de 245 à 64 Ma et groupant le Trias, le Jurassique et le Crétacé. Ce terme n'est plus usité dans les pays anglo-saxon. (A. Foucault et J.-F. Raoult, Dictionnaire de géologie, 6e édition 2005)"
+		},
+		"p02chr4fb93": {
+			"id": "p02chr4fb93",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtVezl7IRpf1",
+			"label": "Jurassique",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Jurassic"
+				],
+				"it": [
+					"Giurassico"
+				],
+				"nl": [
+					"Jura"
+				],
+				"de": [
+					"Jura (Geologie)"
+				],
+				"es": [
+					"Jurásico"
+				],
+				"ar": [
+					"العصر الجوراسي"
+				],
+				"fr": [
+					"Jurassique"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-201300000"
+				},
+				"label": "-201300000"
+			},
+			"stop": {
+				"in": {
+					"year": "-145000001"
+				},
+				"label": "-145000001"
+			},
+			"note": "Le Jurassique est une période géologique qui s’étend de - 201,3 à - 145 millions d'années. Il constitue la période ou le système intermédiaire de l'ère Mésozoïque laquelle est aussi connue sous le nom d'« ère des reptiles ». Le début du Jurassique est marqué par une extinction massive d’espèces (l’extinction du Trias-Jurassique). Le système jurassique se subdivise en trois séries géologiques : Jurassique inférieur, Jurassique moyen et Jurassique supérieur autrefois dénommées, respectivement : Lias, Dogger et Malm. Le Jurassique a été nommé ainsi en 1829 par le géologue et naturaliste français Alexandre Brongniart d’après les calcaires trouvés dans le Jura. Cette période de l’ère Mésozoïque suit le Trias et précède le Crétacé. (D'après Wikipédia)"
+		},
+		"p02chr4v362": {
+			"id": "p02chr4v362",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtogy2tiIftS",
+			"label": "Crétacé",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Cretaceous"
+				],
+				"it": [
+					"Cretacico"
+				],
+				"es": [
+					"Cretácico"
+				],
+				"de": [
+					"Kreide"
+				],
+				"nl": [
+					"Krijt"
+				],
+				"ar": [
+					"العصر الطباشيري"
+				],
+				"fr": [
+					"Crétacé"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-145000000"
+				},
+				"label": "-145000000"
+			},
+			"stop": {
+				"in": {
+					"year": "-66000000"
+				},
+				"label": "-66000000"
+			},
+			"note": "Le Crétacé est une période géologique qui s’étend de ≃ 145,0 à 66,0 Ma. Elle se termine avec la disparition des dinosaures non aviens, des ammonites et de nombreuses autres formes de vie. Cette période est la troisième et dernière de l’ère Mésozoïque ; elle suit le Jurassique et précède le Paléogène. (Wikipédia)"
+		},
+		"p02chr48mcm": {
+			"id": "p02chr48mcm",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtwa7QyEY2EZ",
+			"label": "Tertiaire",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Tertiary"
+				],
+				"es": [
+					"Terciario"
+				],
+				"nl": [
+					"Tertiair"
+				],
+				"de": [
+					"Tertiär"
+				],
+				"it": [
+					"Terziario"
+				],
+				"ar": [
+					"الحقب الجيولوجي الثالث"
+				],
+				"fr": [
+					"Tertiaire"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-66000000"
+				},
+				"label": "-66000000"
+			},
+			"stop": {
+				"in": {
+					"year": "-2580000"
+				},
+				"label": "-2580000"
+			},
+			"note": "Le Tertiaire est l'ancien nom d'une ère géologique s'étendant de - 66 Ma à - 2,58 Ma. La « Commission internationale de stratigraphie » a regroupé au sein de l'ère Cénozoïque ce qui auparavant correspondait aux anciennes ères tertiaire et quaternaire. (Wikipédia)"
+		},
+		"p02chr4dp3n": {
+			"id": "p02chr4dp3n",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtUTJEO4RLGo",
+			"label": "Oligocène",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Oligocene"
+				],
+				"nl": [
+					"Oligoceen"
+				],
+				"it": [
+					"Oligocene"
+				],
+				"es": [
+					"Oligoceno"
+				],
+				"de": [
+					"Oligozän"
+				],
+				"ar": [
+					"أوليغوسن"
+				],
+				"fr": [
+					"Oligocène"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-33900000"
+				},
+				"label": "-33900000"
+			},
+			"stop": {
+				"in": {
+					"year": "-23030000"
+				},
+				"label": "-23030000"
+			},
+			"note": "L’Oligocène est une époque géologique qui s’étend de 33,9 ± 0,1 à 23,03 ± 0,05 Ma. Elle suit l’Éocène, et notamment la Grande Coupure, et précède le Miocène. C’est la troisième époque de l’ère Cénozoïque et aussi la troisième du Paléogène. Son nom se réfère à la rareté d’apparition de nouveaux mammifères modernes en comparaison de leur rapide apparition durant l’Éocène.(Wikipédia)"
+		},
+		"p02chr4s95t": {
+			"id": "p02chr4s95t",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtXS0TW2NFtS",
+			"label": "Pliocène",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Pliocene"
+				],
+				"nl": [
+					"Plioceen"
+				],
+				"it": [
+					"Pliocene"
+				],
+				"es": [
+					"Plioceno"
+				],
+				"de": [
+					"Pliozän"
+				],
+				"ar": [
+					"بليوسن"
+				],
+				"fr": [
+					"Pliocène"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-5331000"
+				},
+				"label": "-5331000"
+			},
+			"stop": {
+				"in": {
+					"year": "-2580001"
+				},
+				"label": "-2580001"
+			},
+			"note": "Sur l'échelle des temps géologiques, le Pliocène est la plus récente époque géologique du Néogène. S'étendant de 5,332 ± 0,005 à 2,588 ± 0,005 millions d’années (depuis que le Gélasien est classé dans le Pléistocène), il est suivi du Pléistocène et précédé par le Miocène. Cette période a été dénommée par Charles Lyell à partir du grec πλεῖον (pleion, « plus ») et καινός (kainos, « nouveau »), « plus récent », en référence aux mammifères déjà essentiellement modernes. Les bornes du Pliocène ne sont pas identifiées à un événement global, mais plutôt au refroidissement continu depuis l’Oligocène. La borne supérieure avait été située pour marquer le début des glaciations du Pléistocène mais est maintenant considérée comme trop récente, les dates des premières glaciations ayant été reculées depuis. (Wikipédia)"
+		},
+		"p02chr4z7c7": {
+			"id": "p02chr4z7c7",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtMcu4ux1v4T",
+			"label": "Quaternaire",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Quaternary"
+				],
+				"es": [
+					"Cuaternaria"
+				],
+				"nl": [
+					"Kwartair"
+				],
+				"de": [
+					"Quartär"
+				],
+				"it": [
+					"Quaternario"
+				],
+				"ar": [
+					"الرُّباعي"
+				],
+				"fr": [
+					"Quaternaire"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-2580000"
+				},
+				"label": "-2580000"
+			},
+			"stop": {
+				"in": {
+					"year": "2000"
+				},
+				"label": "2000"
+			},
+			"note": "Le Quaternaire est la troisième période géologique de l'ère du Cénozoïque et la plus récente sur l'échelle des temps géologiques. Cette période se caractérise par le retour des glaciations, l'extension du genre Homo et l'extinction des faunes de l'Holocène. (Wikipédia)\n"
+		},
+		"p02chr4cjmt": {
+			"id": "p02chr4cjmt",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrte1hYeBqffx",
+			"label": "Pléistocène",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Pleistocene"
+				],
+				"nl": [
+					"Pleistoceen"
+				],
+				"it": [
+					"Pleistocene"
+				],
+				"es": [
+					"Pleistoceno"
+				],
+				"de": [
+					"Pleistozän"
+				],
+				"ar": [
+					"بليستوسن"
+				],
+				"fr": [
+					"Pléistocène"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-2580000"
+				},
+				"label": "-2580000"
+			},
+			"stop": {
+				"in": {
+					"year": "-9701"
+				},
+				"label": "-9701"
+			},
+			"note": "Le Pléistocène (du grec ancien pleistos, nombreux, et kainos, récent) est la plus ancienne époque géologique du Quaternaire et l'avant-dernière sur l'échelle des temps géologiques (tant que la proposition de création de l'Anthropocène n'est pas retenue). Elle s'étend de 2,58 millions d'années à 11 700 ans avant le présent. Le Pléistocène est marqué par les récentes glaciations et sa fin correspond à celle du Paléolithique. (Wikipédia)"
+		},
+		"p02chr4z5zq": {
+			"id": "p02chr4z5zq",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtISVpH2nT99",
+			"label": "Pléistocène ancien",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Lower Pleistocene"
+				],
+				"fr": [
+					"Pléistocène inférieur",
+					"Pléistocène ancien"
+				],
+				"de": [
+					"Altpleistozän"
+				],
+				"nl": [
+					"Onder-Pleistoceen"
+				],
+				"it": [
+					"Pleistocene inferiore"
+				],
+				"es": [
+					"Pleistoceno antiguo"
+				],
+				"ar": [
+					"بليستوسن قديم"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-2580000"
+				},
+				"label": "-2580000"
+			},
+			"stop": {
+				"in": {
+					"year": "-779001"
+				},
+				"label": "-779001"
+			},
+			"note": "Le « Pléistocène inférieur » est un terme non reconnu dans la nomenclature stratigraphique internationale de la Commission internationale de stratigraphie. Dans cette nomenclature, la série du Pléistocène est subdivisée en quatre étages ou âges géologiques, de bas en haut : le Gélasien, le Calabrien, le Pléistocène moyen et le Pléistocène supérieur. Le terme « Pléistocène inférieur » est cependant couramment utilisé pour regrouper les deux étages de la partie inférieure du Pléistocène, le Gélasien et le Calabrien. Cet intervalle de temps a débuté il y a environ 2,58 millions d'années (Ma) et s'est terminé il y a 0,781 Ma (à ± 5 000 ans). (Wikipédia)"
+		},
+		"p02chr4qpv6": {
+			"id": "p02chr4qpv6",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtFS9v4PxyYL",
+			"label": "Paléolithique",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Palaeolithic"
+				],
+				"fr": [
+					"époque paléolithique",
+					"Paléolithique"
+				],
+				"de": [
+					"Paläolithikum"
+				],
+				"nl": [
+					"Paleolithicum"
+				],
+				"it": [
+					"Paleolitico"
+				],
+				"es": [
+					"Paleolítico"
+				],
+				"ar": [
+					"باليوليت"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-800000"
+				},
+				"label": "-800000"
+			},
+			"stop": {
+				"in": {
+					"year": "-12501"
+				},
+				"label": "-12501"
+			},
+			"note": "Définition : Le terme Paléolithique a été créé dans la seconde moitié du XIXe siècle pour désigner l’âge de la Pierre ancienne. Ce terme désigne une période longue de 2.7 m. a. attestant une coindividuation (coévolution) de l’homme et de l’outil (Boëda 2013, 42)."
+		},
+		"p02chr4c8vt": {
+			"id": "p02chr4c8vt",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtR0559ddRES",
+			"label": "Paléolithique inférieur/moyen",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Lower/Middle Palaeolithic"
+				],
+				"de": [
+					"Alt/Mittelpaläolithikum"
+				],
+				"nl": [
+					"Oud/Midden-Paleolithicum"
+				],
+				"it": [
+					"Paleolitico inferiore/medio"
+				],
+				"es": [
+					"Paleolítico inferior/medio"
+				],
+				"ar": [
+					"باليوليت قديم\\\\وسيط"
+				],
+				"fr": [
+					"Paléolithique inférieur/moyen"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-800000"
+				},
+				"label": "-800000"
+			},
+			"stop": {
+				"in": {
+					"year": "-40001"
+				},
+				"label": "-40001"
+			},
+			"narrower": []
+		},
+		"p02chr4fz3x": {
+			"id": "p02chr4fz3x",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtVgXMuQrnxx",
+			"label": "Paléolithique inférieur",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"Paléolithique ancien",
+					"Paléolithique inférieur"
+				],
+				"en": [
+					"Lower Palaeolithic",
+					"Early Stone Age"
+				],
+				"de": [
+					"Altpaläolithikum"
+				],
+				"nl": [
+					"Oud-Paleolithicum"
+				],
+				"es": [
+					"Paleolítico inferior"
+				],
+				"it": [
+					"Paleolitico inferiore"
+				],
+				"ar": [
+					"باليوليت قديم"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-800000"
+				},
+				"label": "-800000"
+			},
+			"stop": {
+				"in": {
+					"year": "-300001"
+				},
+				"label": "-300001"
+			},
+			"narrower": []
+		},
+		"p02chr4hx2t": {
+			"id": "p02chr4hx2t",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtPwMGYma3Va",
+			"label": "Pléistocène moyen",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Middle Pleistocene"
+				],
+				"fr": [
+					"Pléistocène Ionien",
+					"Pléistocène moyen"
+				],
+				"nl": [
+					"Midden-Pleistoceen"
+				],
+				"de": [
+					"Mittelpleistozän"
+				],
+				"it": [
+					"Pleistocene medio"
+				],
+				"es": [
+					"Pleistoceno medio"
+				],
+				"ar": [
+					"بليستوسن وسيط"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-779000"
+				},
+				"label": "-779000"
+			},
+			"stop": {
+				"in": {
+					"year": "-124001"
+				},
+				"label": "-124001"
+			},
+			"note": "Le Pléistocène moyen est le troisième étage du Pléistocène. Il est précédé des étages Gélasien et Calabrien et suivi du Pléistocène supérieur (ou « Tarentien »), quatrième et dernier étage de l'époque du Pléistocène1. Le Pléistocène moyen a une durée d'environ 650 000 ans, entre −781 000 et −126 000 ans. (Wikipédia)"
+		},
+		"p02chr4vnqm": {
+			"id": "p02chr4vnqm",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtT7uGEJ3s0j",
+			"label": "Paléolithique moyen",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Middle Palaeolithic"
+				],
+				"nl": [
+					"Midden-Paleolithicum"
+				],
+				"de": [
+					"Mittelpaläolithikum"
+				],
+				"it": [
+					"Paleolitico medio"
+				],
+				"es": [
+					"Paleolítico medio"
+				],
+				"ar": [
+					"باليوليت وسيط"
+				],
+				"fr": [
+					"Paléolithique moyen"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-300000"
+				},
+				"label": "-300000"
+			},
+			"stop": {
+				"in": {
+					"year": "-40001"
+				},
+				"label": "-40001"
+			},
+			"narrower": []
+		},
+		"p02chr4m63c": {
+			"id": "p02chr4m63c",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtkcYHviAkFR",
+			"label": "Pléistocène supérieur",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Upper Pleistocene"
+				],
+				"fr": [
+					"Pléistocène récent",
+					"Pléistocène Tarentien",
+					"Pléistocène supérieur"
+				],
+				"nl": [
+					"Boven-Pleistoceen"
+				],
+				"de": [
+					"Jungpleistozän"
+				],
+				"it": [
+					"Pleistocene superiore"
+				],
+				"es": [
+					"Pleistoceno superior"
+				],
+				"ar": [
+					"بليستوسن أعلى"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-124000"
+				},
+				"label": "-124000"
+			},
+			"stop": {
+				"in": {
+					"year": "-9701"
+				},
+				"label": "-9701"
+			},
+			"note": "Le Pléistocène supérieur est le dernier étage ou âge de l'époque du Pléistocène, première époque de la période du Quaternaire (la seconde étant l'Holocène). (Wikipédia)"
+		},
+		"p02chr4c4bc": {
+			"id": "p02chr4c4bc",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrt9U8BH9pVRu",
+			"label": "Paléolithique supérieur",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Upper Palaeolithic"
+				],
+				"nl": [
+					"Jong-Paleolithicum"
+				],
+				"de": [
+					"Jungpaläolithikum"
+				],
+				"es": [
+					"Paleolítico superior"
+				],
+				"it": [
+					"Paleolitico superiore"
+				],
+				"ar": [
+					"باليوليت أعلى"
+				],
+				"fr": [
+					"Paléolithique supérieur"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-40000"
+				},
+				"label": "-40000"
+			},
+			"stop": {
+				"in": {
+					"year": "-12501"
+				},
+				"label": "-12501"
+			},
+			"narrower": []
+		},
+		"p02chr43h3c": {
+			"id": "p02chr43h3c",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrt9hLpUyQcym",
+			"label": "Chronologie américaine",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"New World Chronology"
+				],
+				"de": [
+					"Altamerikanische Kulturen"
+				],
+				"nl": [
+					"Amerikaanse chronologie"
+				],
+				"es": [
+					"Cronología amerindia"
+				],
+				"it": [
+					"Cronologia amerindiana"
+				],
+				"ar": [
+					"التسلسل الزمني للثقافات الهندوأمريكية"
+				],
+				"fr": [
+					"Chronologie américaine"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-23000"
+				},
+				"label": "-23000"
+			},
+			"stop": {
+				"in": {
+					"year": "1492"
+				},
+				"label": "1492"
+			},
+			"note": "Employer ce terme pour les périodes entre la préhistoire et l'arrivée des Espagnols (BL)"
+		},
+		"p02chr4pdhw": {
+			"id": "p02chr4pdhw",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtOem33zra4M",
+			"label": "Bölling",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Bölling"
+				],
+				"de": [
+					"Bölling"
+				],
+				"es": [
+					"Bölling"
+				],
+				"it": [
+					"Bölling"
+				],
+				"nl": [
+					"Bölling"
+				],
+				"ar": [
+					"بولينغ"
+				],
+				"fr": [
+					"Bölling"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-13000"
+				},
+				"label": "-13000"
+			},
+			"stop": {
+				"in": {
+					"year": "-12101"
+				},
+				"label": "-12101"
+			},
+			"note": "L'oscillation de Bølling fut une période interstadiaire entre le Dryas ancien et le Dryas récent, à la fin de la dernière glaciation. (Wikipédia)"
+		},
+		"p02chr44sm4": {
+			"id": "p02chr44sm4",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtczbrBj5aJv",
+			"label": "Epipaléolithique et Mésolithique",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Epipalaeolithic and Mesolithic"
+				],
+				"de": [
+					"Epipaläolithikum"
+				],
+				"nl": [
+					"Epipaleolithicum en Mesolithicum"
+				],
+				"it": [
+					"Epipaleolitico e Mesolitico"
+				],
+				"es": [
+					"Epipaleolítico y Mesolítico"
+				],
+				"ar": [
+					"إب باليوليت و ميزوليت"
+				],
+				"fr": [
+					"Epipaléolithique et Mésolithique"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-12500"
+				},
+				"label": "-12500"
+			},
+			"stop": {
+				"in": {
+					"year": "-5501"
+				},
+				"label": "-5501"
+			}
+		},
+		"p02chr452hz": {
+			"id": "p02chr452hz",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtNcvU9Ed8ln",
+			"label": "Epipaléolithique",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"Paléolithique supérieur final",
+					"Paléolithique final",
+					"Epipaléolithique"
+				],
+				"en": [
+					"Epipalaeolithic"
+				],
+				"it": [
+					"Epipaleolitico"
+				],
+				"es": [
+					"Epipaleolítico"
+				],
+				"de": [
+					"Spätpaläolithikum"
+				],
+				"ar": [
+					"إب باليوليت"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-12500"
+				},
+				"label": "-12500"
+			},
+			"stop": {
+				"in": {
+					"year": "-9601"
+				},
+				"label": "-9601"
+			},
+			"note": "L'Épipaléolithique ou Paléolithique final est une phase de la Préhistoire récente, succédant au Paléolithique supérieur environ 12 500 ans avant notre ère et précédant le Mésolithique. (Wikipédia)"
+		},
+		"p02chr4xhgx": {
+			"id": "p02chr4xhgx",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtLagpHNQNLi",
+			"label": "glaciation de Würm",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"Dernier maximum glaciaire",
+					"Weichselien",
+					"Wisconsinien",
+					"Würmien",
+					"Würm",
+					"glaciation de Würm"
+				],
+				"en": [
+					"Würm glaciation"
+				],
+				"es": [
+					"glaciación de Würm"
+				],
+				"it": [
+					"glaciazione Würm"
+				],
+				"nl": [
+					"Würm Glaciaal"
+				],
+				"de": [
+					"Würm-Kaltzeit"
+				],
+				"ar": [
+					"فيرم"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-12500"
+				},
+				"label": "-12500"
+			},
+			"stop": {
+				"in": {
+					"year": "-11000"
+				},
+				"label": "-11000"
+			},
+			"note": "La glaciation de Würm, est le nom donné aux manifestations de la dernière période glaciaire globale du Pléistocène dans les Alpes. (Wikipédia)",
+			"narrower": []
+		},
+		"p02chr4bk52": {
+			"id": "p02chr4bk52",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtxSiBkZP5dp",
+			"label": "Dryas",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Dryas"
+				],
+				"de": [
+					"Dryas"
+				],
+				"es": [
+					"Dryas"
+				],
+				"nl": [
+					"Dryas"
+				],
+				"ar": [
+					"درياس"
+				],
+				"fr": [
+					"Dryas"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-11000"
+				},
+				"label": "-11000"
+			},
+			"stop": {
+				"in": {
+					"year": "-9600"
+				},
+				"label": "-9600"
+			},
+			"narrower": []
+		},
+		"p02chr4d8tr": {
+			"id": "p02chr4d8tr",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtG380wfFS4K",
+			"label": "Alleröd",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"Allerød",
+					"Alleröd"
+				],
+				"en": [
+					"Alleröd"
+				],
+				"de": [
+					"Alleröd"
+				],
+				"es": [
+					"Alleröd"
+				],
+				"it": [
+					"Alleröd"
+				],
+				"nl": [
+					"Alleröd"
+				],
+				"ar": [
+					"ألرويد"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-10000"
+				},
+				"label": "-10000"
+			},
+			"stop": {
+				"in": {
+					"year": "-8801"
+				},
+				"label": "-8801"
+			},
+			"note": "Phase climatique tempérée de la fin de la dernière glaciation (ou Tardiglaciaire), datée par le radiocarbone d'environ 12 000 à 10 800 ans BP. (Wikipédia)"
+		},
+		"p02chr4hphv": {
+			"id": "p02chr4hphv",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtspSrlaX1dI",
+			"label": "Holocène",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"Postglaciaire",
+					"Holocène"
+				],
+				"en": [
+					"Holocene"
+				],
+				"nl": [
+					"Holoceen"
+				],
+				"es": [
+					"Holoceno"
+				],
+				"de": [
+					"Holozän"
+				],
+				"it": [
+					"Olocene"
+				],
+				"ar": [
+					"هولوسن"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-9700"
+				},
+				"label": "-9700"
+			},
+			"stop": {
+				"in": {
+					"year": "2000"
+				},
+				"label": "2000"
+			},
+			"note": "L'Holocène (du grec ancien holos - ὅλος : entier, et kainos - καινός : récent) est une époque géologique s'étendant sur les 10 000 dernières années, toujours en cours de nos jours. (Wikipédia)"
+		},
+		"p02chr4gqd2": {
+			"id": "p02chr4gqd2",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtm0TQrgSmdN",
+			"label": "Tardiglaciaire",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"Würm IV",
+					"Tardiglaciaire"
+				],
+				"en": [
+					"Late Glacial"
+				],
+				"es": [
+					"Máximo Tardiglaciar"
+				],
+				"de": [
+					"Spätglazial"
+				],
+				"nl": [
+					"Tardiglaciaal"
+				],
+				"it": [
+					"Tardiglaciale"
+				],
+				"ar": [
+					"العصر الجليدي المتأخر"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-9650"
+				},
+				"label": "-9650"
+			},
+			"stop": {
+				"in": {
+					"year": "-7700"
+				},
+				"label": "-7700"
+			},
+			"note": "Dernière phase du Pléistocène, précédant l'époque actuelle de l'Holocène. Il correspond à l'ultime subdivision de la dernière glaciation (glaciation de Würm dans les Alpes), durant laquelle le climat se réchauffe globalement même s'il est marqué par des oscillations froides. Il précède la période interglaciaire actuelle (on parle encore de postglaciaire), globalement chaude, qu'est l'Holocène. Les limites chronologiques du Tardiglaciaire varient selon les auteurs mais la plupart considèrent qu'il dure de la fin du Dernier Maximum Glaciaire ou LGM (vers environ 18 000 ans BP) à la dernière oscillation froide appelée Dryas récent (vers 11 650 ans BP calibré soit vers 9700 ans av. J.-C.). (Wikipédia)"
+		},
+		"p02chr423wt": {
+			"id": "p02chr423wt",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtNs85SfBRuH",
+			"label": "Mésolithique",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Mesolithic"
+				],
+				"de": [
+					"Mesolithikum"
+				],
+				"it": [
+					"Mesolitico"
+				],
+				"es": [
+					"Mesolítico"
+				],
+				"ar": [
+					"ميزوليت"
+				],
+				"fr": [
+					"Mésolithique"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-9600"
+				},
+				"label": "-9600"
+			},
+			"stop": {
+				"in": {
+					"year": "-5501"
+				},
+				"label": "-5501"
+			},
+			"note": "Le Mésolithique est la période (entre environ 10 000 et 5 000 ans av. J.-C. en Europe) chronologiquement et culturellement intermédiaire entre le Paléolithique qui le précède et le Néolithique qui lui succède. Les groupes humains de cette période perpétuent un mode de subsistance basé sur la chasse, la pêche et la cueillette sous un climat tempéré proche du climat actuel. Le Mésolithique est marqué par de tels changements économiques et sociaux que certains auteurs en font la première phase de la Protohistoire européenne. Le Mésolithique s'achève avec la mise en place progressive des espèces végétales et animales domestiques lors du Néolithique européen, même si l'économie mésolithique dure encore localement jusqu'à environ 2 300 av. J.-C. en Europe septentrionale. (Wikipédia)"
+		},
+		"p02chr4wz3t": {
+			"id": "p02chr4wz3t",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtphVzWKGT8J",
+			"label": "Mésolithique ancien",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Ancient mesolithic"
+				],
+				"ar": [
+					"ميزوليت قديم"
+				],
+				"fr": [
+					"Mésolithique ancien"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-9600"
+				},
+				"label": "-9600"
+			},
+			"stop": {
+				"in": {
+					"year": "-8301"
+				},
+				"label": "-8301"
+			},
+			"editorialNote": "English label not present in original source but required for data entry via http://Perio.do client. Obtained via Google translate",
+			"narrower": []
+		},
+		"p02chr4mw28": {
+			"id": "p02chr4mw28",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtcf8LOl20Mv",
+			"label": "Néolithique précéramique",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"PPN",
+					"Néolithique précéramique"
+				],
+				"en": [
+					"Pre-Pottery Neolithic"
+				],
+				"it": [
+					"Neolitico preceramico"
+				],
+				"es": [
+					"Neolítico precerámico"
+				],
+				"de": [
+					"Präkeramisches Neolithikum"
+				],
+				"nl": [
+					"Prekeramisch Neolithicum"
+				],
+				"ar": [
+					"نيوليت قبل الفخار"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-9000"
+				},
+				"label": "-9000"
+			},
+			"stop": {
+				"in": {
+					"year": "-7000"
+				},
+				"label": "-7000"
+			},
+			"note": "L'expression « Néolithique précéramique » (Pre-Pottery Neolithic en anglais) désigne une phase du Néolithique ancien caractérisée par l'adoption de certains traits tels que la sédentarité, l'agriculture ou le polissage des outils de pierre mais pas la fabrication de céramique. Elle a été introduite par Kathleen Kenyon dans le cadre de l'étude de la séquence de Jéricho puis a été adoptée pour l'ensemble du Néolithique du Proche-Orient."
+		},
+		"p02chr4b8ww": {
+			"id": "p02chr4b8ww",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtYwNO0YUbVp",
+			"label": "Mésolithique moyen",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Middle Mesolithic"
+				],
+				"ar": [
+					"ميزوليت وسيط"
+				],
+				"fr": [
+					"Mésolithique moyen"
+				]
+			},
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-8300"
+				},
+				"label": "-8300"
+			},
+			"stop": {
+				"in": {
+					"year": "-6901"
+				},
+				"label": "-6901"
+			},
+			"editorialNote": "English label not present in original source but required for data entry via Perio.do client. Obtained via Google Translate",
+			"narrower": []
+		},
+		"p02chr4txtc": {
+			"id": "p02chr4txtc",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtnkWSMMS9VP",
+			"label": "Préboréal",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"Pré-boréal",
+					"Pré-Boréal",
+					"Préboréal"
+				],
+				"en": [
+					"Preboreal"
+				],
+				"de": [
+					"Präboreal"
+				],
+				"nl": [
+					"Preboreaal"
+				],
+				"es": [
+					"Preboreal"
+				],
+				"it": [
+					"Preboreale"
+				],
+				"ar": [
+					"ما قبل شمالي"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-8300"
+				},
+				"label": "-8300"
+			},
+			"stop": {
+				"in": {
+					"year": "-7001"
+				},
+				"label": "-7001"
+			},
+			"note": "Première phase de l'Holocène, située entre 10 300 et 9 000 ans avant le présent. Elle précède le boréal et succède au pléistocène supérieur. (Wikipédia)"
+		},
+		"p02chr4s3wh": {
+			"id": "p02chr4s3wh",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtv45WFy4YjO",
+			"label": "Mésolithique final",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Late Mesolithic"
+				],
+				"ar": [
+					"ميزوليت أخير"
+				],
+				"fr": [
+					"Mésolithique final"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-6900"
+				},
+				"label": "-6900"
+			},
+			"stop": {
+				"in": {
+					"year": "-5501"
+				},
+				"label": "-5501"
+			},
+			"editorialNote": "English label not present in original source but required for data entry via http://Perio.do client. Obtained via Google translate",
+			"narrower": []
+		},
+		"p02chr4knmx": {
+			"id": "p02chr4knmx",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtwpx5MU2hlw",
+			"label": "Préhistoire",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"âge de la pierre",
+					"âge de pierre",
+					"Préhistoire"
+				],
+				"en": [
+					"Prehistory"
+				],
+				"es": [
+					"Prehistoria"
+				],
+				"nl": [
+					"Prehistorie"
+				],
+				"it": [
+					"Preistoria"
+				],
+				"de": [
+					"Ur- und Frühgeschichte"
+				],
+				"ar": [
+					"ما قبل التاريخ"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-800000"
+				},
+				"label": "-800000"
+			},
+			"stop": {
+				"in": {
+					"year": "-3001"
+				},
+				"label": "-3001"
+			}
+		},
+		"p02chr4snwn": {
+			"id": "p02chr4snwn",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtzTubWFEonX",
+			"label": "Mésolithique récent",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Late Mesolithic"
+				],
+				"ar": [
+					"ميزوليت حديث"
+				],
+				"fr": [
+					"Mésolithique récent"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-6900"
+				},
+				"label": "-6900"
+			},
+			"stop": {
+				"in": {
+					"year": "-6001"
+				},
+				"label": "-6001"
+			},
+			"editorialNote": "English label not present in original source but required for data entry via http://Perio.do client. Obtained via Google translate",
+			"narrower": []
+		},
+		"p02chr4ghc6": {
+			"id": "p02chr4ghc6",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtH8P95EucZz",
+			"label": "Néolithique",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Neolithic"
+				],
+				"nl": [
+					"Neolithicum"
+				],
+				"de": [
+					"Neolithikum"
+				],
+				"it": [
+					"Neolitico"
+				],
+				"es": [
+					"Neolítico"
+				],
+				"ar": [
+					"نيوليت"
+				],
+				"fr": [
+					"Néolithique"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-6000"
+				},
+				"label": "-6000"
+			},
+			"stop": {
+				"in": {
+					"year": "-2201"
+				},
+				"label": "-2201"
+			},
+			"narrower": []
+		},
+		"p02chr4zmnf": {
+			"id": "p02chr4zmnf",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtFRtEh1AndU",
+			"label": "Néolithique ancien",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Early Neolithic"
+				],
+				"de": [
+					"Frühneolithikum"
+				],
+				"it": [
+					"Neolitico antico"
+				],
+				"es": [
+					"Neolítico antiguo"
+				],
+				"nl": [
+					"Vroeg-Neolithicum"
+				],
+				"ar": [
+					"نيوليت قديم"
+				],
+				"fr": [
+					"Néolithique ancien"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-6000"
+				},
+				"label": "-6000"
+			},
+			"stop": {
+				"in": {
+					"year": "-5301"
+				},
+				"label": "-5301"
+			}
+		},
+		"p02chr4m92t": {
+			"id": "p02chr4m92t",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrt2Da0ASe5sL",
+			"label": "Néolithique moyen",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Middle Neolithic"
+				],
+				"de": [
+					"Jungneolithikum"
+				],
+				"nl": [
+					"Midden-Neolithicum"
+				],
+				"it": [
+					"Neolitico medio"
+				],
+				"es": [
+					"Neolítico medio"
+				],
+				"ar": [
+					"نيوليت وسيط"
+				],
+				"fr": [
+					"Néolithique moyen"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-5300"
+				},
+				"label": "-5300"
+			},
+			"stop": {
+				"in": {
+					"year": "-4501"
+				},
+				"label": "-4501"
+			},
+			"editorialNote": "English label not present in original source but required for data entry via http://Perio.do client. Obtained via Google translate",
+			"narrower": []
+		},
+		"p02chr48cqr": {
+			"id": "p02chr48cqr",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtdnSecgloEJ",
+			"label": "Néolithique récent",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Late Neolithic"
+				],
+				"nl": [
+					"Late Neolithicum"
+				],
+				"it": [
+					"Neolitico recente"
+				],
+				"es": [
+					"Neolítico reciente"
+				],
+				"de": [
+					"Spätneolithikum"
+				],
+				"ar": [
+					"نيوليت حديث"
+				],
+				"fr": [
+					"Néolithique récent"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-4500"
+				},
+				"label": "-4500"
+			},
+			"stop": {
+				"in": {
+					"year": "-2201"
+				},
+				"label": "-2201"
+			},
+			"narrower": []
+		},
+		"p02chr47s3b": {
+			"id": "p02chr47s3b",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtkWTHVxnZWN",
+			"label": "Néolithique final",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Final Neolithic"
+				],
+				"nl": [
+					"Eind-Neolithicum"
+				],
+				"de": [
+					"Endneolithikum"
+				],
+				"es": [
+					"Neolítico final"
+				],
+				"it": [
+					"Neolitico finale"
+				],
+				"ar": [
+					"نيوليت أخير"
+				],
+				"fr": [
+					"Néolithique final"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-4500"
+				},
+				"label": "-4500"
+			},
+			"stop": {
+				"in": {
+					"year": "-3951"
+				},
+				"label": "-3951"
+			},
+			"note": "Correspond au Chalcolithique sans métal"
+		},
+		"p02chr45srh": {
+			"id": "p02chr45srh",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtUoS7hUkI8o",
+			"label": "Sub-boréal",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"Subboréal",
+					"sous-boréal",
+					"Sub-Boréal",
+					"Sub-boréal"
+				],
+				"en": [
+					"Subboreal"
+				],
+				"nl": [
+					"Subboreaal"
+				],
+				"de": [
+					"Subboreal"
+				],
+				"es": [
+					"Suboreal"
+				],
+				"it": [
+					"Suboreale"
+				],
+				"ar": [
+					"تحت شمالي"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-3710"
+				},
+				"label": "-3710"
+			},
+			"stop": {
+				"in": {
+					"year": "-0851"
+				},
+				"label": "-851"
+			},
+			"note": "Avant-dernier étage paléoclimatologique de l'Holocène, le Subboréal s'étend de - 5000 ans à - 2500 ans avant le présent. (Wikipédia)"
+		},
+		"p02chr4tw9n": {
+			"id": "p02chr4tw9n",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtil5znJ6Z4o",
+			"label": "Chronologie antillaise",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"West Indies chronology"
+				],
+				"de": [
+					"Antillen-Chronologie"
+				],
+				"nl": [
+					"Antilliaanse chronologie"
+				],
+				"es": [
+					"Cronología antillana"
+				],
+				"it": [
+					"Cronologia antillese"
+				],
+				"ar": [
+					"التسلسل الزمني لثقافات الكاريبي"
+				],
+				"fr": [
+					"Chronologie antillaise"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-3000"
+				},
+				"label": "-3000"
+			},
+			"stop": {
+				"in": {
+					"year": "1915"
+				},
+				"label": "1915"
+			}
+		},
+		"p02chr42bc7": {
+			"id": "p02chr42bc7",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrt6v7rFwj0do",
+			"label": "Chalcolithique",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"âge du cuivre",
+					"Énéolithique",
+					"Épinéolithique",
+					"époque chalcolithique",
+					"Chalcolithique"
+				],
+				"en": [
+					"Copper Age"
+				],
+				"es": [
+					"Chalcolítico"
+				],
+				"de": [
+					"Chalkolithikum"
+				],
+				"it": [
+					"Eneolitico"
+				],
+				"ar": [
+					"الكالكوليت"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-3000"
+				},
+				"label": "-3000"
+			},
+			"stop": {
+				"in": {
+					"year": "-2201"
+				},
+				"label": "-2201"
+			},
+			"note": "Parfois appelé Énéolithique, ou encore plus rarement Épinéolithique, période de la protohistoire originellement définie comme une transition entre le Néolithique et l'âge du bronze. (Wikipédia)"
+		},
+		"p02chr4tg3r": {
+			"id": "p02chr4tg3r",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtHlenwSnkDM",
+			"label": "Protohistoire",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"âge des métaux",
+					"époque pré-romaine",
+					"époque protohistorique",
+					"Protohistoire"
+				],
+				"en": [
+					"Protohistory"
+				],
+				"de": [
+					"Frühgeschichte"
+				],
+				"es": [
+					"Protohistoria"
+				],
+				"nl": [
+					"protohistorie"
+				],
+				"it": [
+					"Protostoria"
+				],
+				"ar": [
+					"فجر التاريخ"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-2200"
+				},
+				"label": "-2200"
+			},
+			"stop": {
+				"in": {
+					"year": "-0051"
+				},
+				"label": "-51"
+			},
+			"narrower": []
+		},
+		"p02chr4bdf4": {
+			"id": "p02chr4bdf4",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtGTWPtWn8qu",
+			"label": "âge du Bronze",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Bronze Age"
+				],
+				"fr": [
+					"Age du Bronze",
+					"âge du Bronze"
+				],
+				"nl": [
+					"Bronstijd"
+				],
+				"de": [
+					"Bronzezeit"
+				],
+				"es": [
+					"Edad de bronce"
+				],
+				"it": [
+					"Età del bronzo"
+				],
+				"ar": [
+					"عصر البرونز"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-2200"
+				},
+				"label": "-2200"
+			},
+			"stop": {
+				"in": {
+					"year": "-0801"
+				},
+				"label": "-801"
+			},
+			"note": "La chronologie de l'âge du Bronze faisant référence est celle de J.-J. Hatt « Nouveau projet de chronologie pour l’âge de bronze en France » in : Bulletin de la Société préhistorique française, p. 304-306, 1958, vol. 55, no 5-6."
+		},
+		"p02chr479c3": {
+			"id": "p02chr479c3",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtU9wwh3D5FE",
+			"label": "Bronze ancien",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"âge du Bronze ancien",
+					"Age du bronze ancien",
+					"Bronze ancien"
+				],
+				"en": [
+					"Early Bronze Age"
+				],
+				"it": [
+					"Antica età del bronzo"
+				],
+				"es": [
+					"Bronce antiguo"
+				],
+				"de": [
+					"Frühe Bronzezeit"
+				],
+				"nl": [
+					"Vroege Bronstijd"
+				],
+				"ar": [
+					"عصر البرونز القديم"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-2200"
+				},
+				"label": "-2200"
+			},
+			"stop": {
+				"in": {
+					"year": "-1601"
+				},
+				"label": "-1601"
+			},
+			"note": "Correspond à l’apparition de la métallurgie, avant le Ve millénaire av. J.‑C. en Anatolie mais vers le IIe millénaire av. J.‑C. en Europe occidentale comme en France. (Wikipédia)\n"
+		},
+		"p02chr4rvnw": {
+			"id": "p02chr4rvnw",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtSDQ3S5vPom",
+			"label": "époque mycénienne",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"ép mycénienne",
+					"époque post-palatiale",
+					"ép post-palatiale",
+					"période mycénienne",
+					"période post-palatiale",
+					"époque mycénienne"
+				],
+				"en": [
+					"Mycenaean Period"
+				],
+				"it": [
+					"età micenea"
+				],
+				"nl": [
+					"Myceense periode"
+				],
+				"de": [
+					"Mykenische Epoche"
+				],
+				"es": [
+					"período miceniano"
+				],
+				"ar": [
+					"العصر الميسيني"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-1650"
+				},
+				"label": "-1650"
+			},
+			"stop": {
+				"in": {
+					"year": "-1101"
+				},
+				"label": "-1101"
+			},
+			"note": "après 1400 av. J.-C.- vers 1200 av. J.-C."
+		},
+		"p02chr4xr3h": {
+			"id": "p02chr4xr3h",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtSZ1b47Qkjp",
+			"label": "Bronze moyen",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"Age du bronze moyen",
+					"Bronze moyen"
+				],
+				"en": [
+					"Middle Bronze Age"
+				],
+				"es": [
+					"Bronce medio"
+				],
+				"it": [
+					"Media età del bronzo"
+				],
+				"nl": [
+					"Midden Bronstijd"
+				],
+				"de": [
+					"Mittlere Bronzezeit"
+				],
+				"ar": [
+					"عصر البرونز الوسيط"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-1600"
+				},
+				"label": "-1600"
+			},
+			"stop": {
+				"in": {
+					"year": "-1401"
+				},
+				"label": "-1401"
+			},
+			"note": "Appelé aussi l’« âge du Bronze véritable », il correspond à la culture des tumulus protoceltiques ce qui en Europe centrale se situe vers le IIe millénaire av. J.-C. et vers 1500 av. J.-C. en France. (Wikipédia)"
+		},
+		"p02chr4qv75": {
+			"id": "p02chr4qv75",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtQGLpWkh9Gt",
+			"label": "Bronze final",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"Âge du bronze final",
+					"Age du bronze final",
+					"Âge du bronze récent",
+					"Bronze récent",
+					"Bronze final"
+				],
+				"en": [
+					"Late Bronze Age"
+				],
+				"es": [
+					"Bronce final"
+				],
+				"nl": [
+					"Late Bronstijd"
+				],
+				"de": [
+					"Spätbronzezeit"
+				],
+				"it": [
+					"Tarda età del bronzo"
+				],
+				"ar": [
+					"عصر البرونز الأخير"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-1400"
+				},
+				"label": "-1400"
+			},
+			"stop": {
+				"in": {
+					"year": "-0801"
+				},
+				"label": "-801"
+			},
+			"note": "Marqué par le début des grandes invasions, principalement celtiques, il se confond en Europe centrale avec la culture des champs d’urnes. Il commence en Europe occidentale comme en France vers le XIIe siècle av. J.-C. (Wikipédia)"
+		},
+		"p02chr4n5w5": {
+			"id": "p02chr4n5w5",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtFqN5q3uU3p",
+			"label": "Hallstatt",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"civilisation de Hallstatt",
+					"ép d'Hallstatt",
+					"époque de Hallstatt",
+					"époque d'Hallstatt",
+					"Hallstatt"
+				],
+				"en": [
+					"Hallstatt culture",
+					"Hallstatt"
+				],
+				"es": [
+					"Hallstatt"
+				],
+				"it": [
+					"Hallstatt"
+				],
+				"nl": [
+					"Hallstatt"
+				],
+				"de": [
+					"Hallstattkultur"
+				],
+				"ar": [
+					"هالستات"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-1200"
+				},
+				"label": "-1200"
+			},
+			"stop": {
+				"in": {
+					"year": "-0475"
+				},
+				"label": "-475"
+			},
+			"narrower": []
+		},
+		"p02chr4tzvw": {
+			"id": "p02chr4tzvw",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtWZ1Q76vmrn",
+			"label": "Bronze récent",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"Age du Bronze récent",
+					"Bronze récent"
+				],
+				"en": [
+					"Late Bronze Age"
+				],
+				"es": [
+					"Bronce reciente"
+				],
+				"it": [
+					"Bronzo recente"
+				],
+				"nl": [
+					"Late Bronstijd"
+				],
+				"de": [
+					"Späte Bronzezeit"
+				],
+				"ar": [
+					"عصر البرونز الحديث"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-1200"
+				},
+				"label": "-1200"
+			},
+			"stop": {
+				"in": {
+					"year": "-1001"
+				},
+				"label": "-1001"
+			},
+			"narrower": []
+		},
+		"p02chr4w3d2": {
+			"id": "p02chr4w3d2",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrt5QppTGWM52",
+			"label": "Bronze récent I",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Late Bronze Age I"
+				],
+				"fr": [
+					"Bronze final I",
+					"Bronze récent I"
+				],
+				"es": [
+					"Bronce reciente I"
+				],
+				"it": [
+					"Bronzo recente I"
+				],
+				"de": [
+					"Späte Bronzezeit I"
+				],
+				"ar": [
+					"1 عصر البرونز الحديث"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-1200"
+				},
+				"label": "-1200"
+			},
+			"stop": {
+				"in": {
+					"year": "-1101"
+				},
+				"label": "-1101"
+			},
+			"narrower": []
+		},
+		"p02chr43t2d": {
+			"id": "p02chr43t2d",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtu4j0whSZHi",
+			"label": "Bronze récent II",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"Bronze final II",
+					"Bronze récent II"
+				],
+				"en": [
+					"Late Bronze Age II"
+				],
+				"es": [
+					"Bronce reciente II"
+				],
+				"it": [
+					"Bronzo recente II"
+				],
+				"de": [
+					"Späte Bronzezeit II"
+				],
+				"ar": [
+					"2 عصر البرونز الحديث"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-1100"
+				},
+				"label": "-1100"
+			},
+			"stop": {
+				"in": {
+					"year": "-0901"
+				},
+				"label": "-901"
+			},
+			"narrower": []
+		},
+		"p02chr4hhwt": {
+			"id": "p02chr4hhwt",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtrb2nqerG4E",
+			"label": "époque orientalisante",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"ép orientalisante",
+					"époque orientalisante"
+				],
+				"en": [
+					"Orientalizing Period"
+				],
+				"nl": [
+					"Oriëntaliserende periode"
+				],
+				"de": [
+					"Orientalisierende Periode"
+				],
+				"es": [
+					"período orientalizante"
+				],
+				"it": [
+					"periodo orientalizzante"
+				],
+				"ar": [
+					"فترة مشرقية"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-1000"
+				},
+				"label": "-1000"
+			},
+			"stop": {
+				"in": {
+					"year": "-0701"
+				},
+				"label": "-701"
+			},
+			"note": "de 750 à 600 pour les archéologues"
+		},
+		"p02chr4c4vs": {
+			"id": "p02chr4c4vs",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtiK0trY6S4r",
+			"label": "Bronze récent III",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Late Bronze Age III"
+				],
+				"fr": [
+					"Bronze final III",
+					"Bronze récent III"
+				],
+				"es": [
+					"Bronce reciente III"
+				],
+				"it": [
+					"Bronzo recente III"
+				],
+				"de": [
+					"Späte Bronzezeit III"
+				],
+				"ar": [
+					"عصر البرونز الحديث 3"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0900"
+				},
+				"label": "-900"
+			},
+			"stop": {
+				"in": {
+					"year": "-0801"
+				},
+				"label": "-801"
+			},
+			"narrower": []
+		},
+		"p02chr4hm5d": {
+			"id": "p02chr4hm5d",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtiSSJerrMvc",
+			"label": "Subatlantique",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"Sub-atlantique",
+					"Sub-Atlantique",
+					"Subatlantique"
+				],
+				"en": [
+					"Subatlantic"
+				],
+				"it": [
+					"Subatlantico"
+				],
+				"es": [
+					"Subatlántico"
+				],
+				"nl": [
+					"Subatlanticum"
+				],
+				"de": [
+					"Subatlantikum"
+				],
+				"ar": [
+					"تحت أطلسي"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0850"
+				},
+				"label": "-850"
+			},
+			"stop": {
+				"in": {
+					"year": "2000"
+				},
+				"label": "2000"
+			},
+			"note": "Sur l'échelle des temps géologiques, le Subatlantique est le dernier étage géologique de l'Holocène. Succédant au Subboréal, il s'étend depuis environ -850 (tant que la proposition de création de l'Anthropocène n'est pas retenue). (Wikipédia)"
+		},
+		"p02chr45626": {
+			"id": "p02chr45626",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtW9SpIgIk7Q",
+			"label": "âge du Fer",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"Age du Fer",
+					"époque celtique",
+					"âge du Fer"
+				],
+				"en": [
+					"Iron Age"
+				],
+				"es": [
+					"Edad del hierro"
+				],
+				"de": [
+					"Eisenzeit"
+				],
+				"it": [
+					"Età del ferro"
+				],
+				"nl": [
+					"Ijzertijd"
+				],
+				"ar": [
+					"عصر الحديد"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0800"
+				},
+				"label": "-800"
+			},
+			"stop": {
+				"in": {
+					"year": "-0051"
+				},
+				"label": "-51"
+			},
+			"note": "Période chronologique caractérisée par l'usage de la métallurgie du fer et faisant généralement suite à l'âge du bronze. Cependant, les limites chronologiques de l'âge du fer varient considérablement selon l'aire culturelle et géographique considérée. Ainsi peut-il être considéré comme appartenant à la Préhistoire, à la Protohistoire ou l'Histoire selon les aires géographiques considérées. L'âge du fer débute vers 1100 av. J.-C. dans le monde méditerranéen, vers 800 à 700 av. J.-C. dans le nord de l'Europe et vers 500 av. J.-C. en Afrique. (Wikipédia)"
+		},
+		"p02chr46pcp": {
+			"id": "p02chr46pcp",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtB2qQmSnkAM",
+			"label": "Italie archaïque",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"Rome archaïque",
+					"Italie archaïque"
+				],
+				"en": [
+					"Archaic Italy"
+				],
+				"nl": [
+					"archaïsch Italië"
+				],
+				"es": [
+					"Italia arcaica"
+				],
+				"it": [
+					"Italia arcaica"
+				],
+				"de": [
+					"Vorrömische Epoche"
+				],
+				"ar": [
+					"إيطاليا القديمة"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0800"
+				},
+				"label": "-800"
+			},
+			"stop": {
+				"in": {
+					"year": "-0401"
+				},
+				"label": "-401"
+			},
+			"narrower": []
+		},
+		"p02chr4rx4z": {
+			"id": "p02chr4rx4z",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtS9zS3EMQiR",
+			"label": "Premier âge du Fer",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"1er âge du Fer",
+					"1er Age du fer",
+					"Premier âge du Fer"
+				],
+				"en": [
+					"Iron Age (first period)"
+				],
+				"de": [
+					"Ältere Eisenzeit"
+				],
+				"nl": [
+					"Ijzertijd (eerste periode)"
+				],
+				"it": [
+					"Prima età del ferro"
+				],
+				"es": [
+					"Primera edad del hierro"
+				],
+				"ar": [
+					"عصر الحديد الأول"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0800"
+				},
+				"label": "-800"
+			},
+			"stop": {
+				"in": {
+					"year": "-0451"
+				},
+				"label": "-451"
+			},
+			"note": "Correspondant à la culture de Hallstatt, le Premier âge du Fer est une culture du centre-ouest de l'Europe qui dure d'environ -1200 à -500. Elle succède à l'âge du bronze final et précède la période de La Tène ou Second âge du Fer (fin de la Protohistoire). (D'après Wikipédia)"
+		},
+		"p02chr4j9v7": {
+			"id": "p02chr4j9v7",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtdsADoum1fI",
+			"label": "interglaciaire Riss-Würm",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"Riss-Würm",
+					"interglaciaire Riss-Würm"
+				],
+				"en": [
+					"Riss-Würm interglacial"
+				],
+				"es": [
+					"interglaciar Riss-Würm"
+				],
+				"it": [
+					"interglaciazione Riss-Würm"
+				],
+				"nl": [
+					"Riss-Würm"
+				],
+				"de": [
+					"Riss-Würm-Interglazial"
+				],
+				"ar": [
+					"ريس ـ فيرم"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0800"
+				},
+				"label": "-800"
+			},
+			"stop": {
+				"in": {
+					"year": "-0451"
+				},
+				"label": "-451"
+			},
+			"note": "Avant-dernière période interglaciaire du Quaternaire. (Wikipédia)"
+		},
+		"p02chr4nwhb": {
+			"id": "p02chr4nwhb",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtpcAdBe2SFu",
+			"label": "époque archaïque",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"ép archaïque",
+					"Grèce archaïque",
+					"époque archaïque"
+				],
+				"en": [
+					"Archaic Period"
+				],
+				"de": [
+					"Archaik"
+				],
+				"nl": [
+					"Archaïsche periode"
+				],
+				"it": [
+					"periodo arcaico"
+				],
+				"es": [
+					"período arcaico"
+				],
+				"ar": [
+					"فترة قديمة"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0800"
+				},
+				"label": "-800"
+			},
+			"stop": {
+				"in": {
+					"year": "-0481"
+				},
+				"label": "-481"
+			},
+			"note": "Ne concerne que le monde grec : de 800 à 480 pour les historiographes et de 600 à 480 pour les archéologues",
+			"editorialNote": "Abbreviation ép (for époque) not present in PACTOLS thesaurus, but present in list of dated terms received from INRAP. Included as it is a commonly used alternative in French language"
+		},
+		"p02chr4hrhd": {
+			"id": "p02chr4hrhd",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtproEe0mnKx",
+			"label": "Transition Bronze/Fer",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Bronze Age/Iron Age transition"
+				],
+				"nl": [
+					"overgang tussen Bronstijd en Ijzertijd"
+				],
+				"es": [
+					"Transición bronce/hierro"
+				],
+				"it": [
+					"Transizione bronzo/ferro"
+				],
+				"de": [
+					"Übergang Bronzezeit/Eisenzeit"
+				],
+				"ar": [
+					"العصر الانتقالي برونز\\\\حديد"
+				],
+				"fr": [
+					"Transition Bronze/Fer"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0775"
+				},
+				"label": "-775"
+			},
+			"stop": {
+				"in": {
+					"year": "-0725"
+				},
+				"label": "-725"
+			}
+		},
+		"p02chr4ws55": {
+			"id": "p02chr4ws55",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtxT02uJOogm",
+			"label": "Antiquité",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Antiquity"
+				],
+				"it": [
+					"Antichità"
+				],
+				"es": [
+					"Antigüedad"
+				],
+				"de": [
+					"Antike"
+				],
+				"nl": [
+					"Oudheid"
+				],
+				"ar": [
+					"تاريخ قديم"
+				],
+				"fr": [
+					"Antiquité"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0600"
+				},
+				"label": "-600"
+			},
+			"stop": {
+				"in": {
+					"year": "0499"
+				},
+				"label": "499"
+			}
+		},
+		"p02chr48vk7": {
+			"id": "p02chr48vk7",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtof7EHNsS2e",
+			"label": "Antiquité gréco-romaine",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"Antiquité classique",
+					"ép gréco-romaine",
+					"époque gréco-romaine",
+					"Antiquité gréco-romaine"
+				],
+				"en": [
+					"Greco-Roman Antiquity"
+				],
+				"it": [
+					"Antichità greco-romana"
+				],
+				"es": [
+					"Antigüedad greco-romana"
+				],
+				"de": [
+					"Griechisch-Römische Antike"
+				],
+				"nl": [
+					"Grieks-Romeinse Oudheid"
+				],
+				"ar": [
+					"تاريخ قديم يوناني-روماني"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0600"
+				},
+				"label": "-600"
+			},
+			"stop": {
+				"in": {
+					"year": "0499"
+				},
+				"label": "499"
+			}
+		},
+		"p02chr4tsx7": {
+			"id": "p02chr4tsx7",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtNzYn31IIAZ",
+			"label": "Antiquité grecque",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Greek Antiquity"
+				],
+				"it": [
+					"Antichità greca"
+				],
+				"es": [
+					"Antigüedad griega"
+				],
+				"de": [
+					"Griechische Antike"
+				],
+				"nl": [
+					"Griekse Oudheid"
+				],
+				"ar": [
+					"تاريخ قديم يوناني"
+				],
+				"fr": [
+					"Antiquité grecque"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0600"
+				},
+				"label": "-600"
+			},
+			"stop": {
+				"in": {
+					"year": "-0229"
+				},
+				"label": "-229"
+			}
+		},
+		"p02chr4zng7": {
+			"id": "p02chr4zng7",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtoNSSGgIkbX",
+			"label": "République romaine",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"époque républicaine",
+					"ép républicaine",
+					"ép romaine républicaine",
+					"époque romaine républicaine",
+					"Rome-République",
+					"République romaine"
+				],
+				"en": [
+					"Roman Republic"
+				],
+				"it": [
+					"Repubblica romana"
+				],
+				"es": [
+					"República romana"
+				],
+				"nl": [
+					"Romeinse republiek"
+				],
+				"de": [
+					"Römische Republik"
+				],
+				"ar": [
+					"الجمهورية الرومانية"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0509"
+				},
+				"label": "-509"
+			},
+			"stop": {
+				"in": {
+					"year": "-0027"
+				},
+				"label": "-27"
+			},
+			"note": "509 av. J.-C. - 27 av. J.-C."
+		},
+		"p02chr4frfc": {
+			"id": "p02chr4frfc",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtQvT7LqGMAp",
+			"label": "époque pré-classique grecque",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"ép pré-classique",
+					"époque pré-classique",
+					"ép pré-classique grecque",
+					"époque pré-classique grecque"
+				],
+				"en": [
+					"Preclassical Period"
+				],
+				"it": [
+					"età preclassica"
+				],
+				"es": [
+					"período preclásico"
+				],
+				"nl": [
+					"Preklassieke periode"
+				],
+				"de": [
+					"Vorklassische Zeit"
+				],
+				"ar": [
+					"عصر ما قبل الكلاسيكي"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0490"
+				},
+				"label": "-490"
+			},
+			"stop": {
+				"in": {
+					"year": "-0461"
+				},
+				"label": "-461"
+			},
+			"editorialNote": "Abbreviation ép (for époque) not present in PACTOLS thesaurus, but present in list of dated terms received from INRAP. Included as it is a commonly used alternative in French language"
+		},
+		"p02chr42dw6": {
+			"id": "p02chr42dw6",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtsjGGaTgSBv",
+			"label": "époque classique grecque",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"ép classique grecque",
+					"époque classique",
+					"ép classique",
+					"époque classique grecque"
+				],
+				"en": [
+					"Classical Greece"
+				],
+				"es": [
+					"Grecia clásica"
+				],
+				"it": [
+					"Grecia classica"
+				],
+				"nl": [
+					"Klassieke periode"
+				],
+				"de": [
+					"Klassische Zeit"
+				],
+				"ar": [
+					"العصر الكلاسيكي"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0480"
+				},
+				"label": "-480"
+			},
+			"stop": {
+				"in": {
+					"year": "-0323"
+				},
+				"label": "-323"
+			},
+			"note": "L’Époque classique est une période de l'histoire de la Grèce antique, située entre l'époque archaïque et l'époque hellénistique. Elle correspond à la majeure partie des ve et ive siècles av. J.-C., c'est-à-dire depuis la victoire athénienne de Salamine contre les Perses en -480 jusqu'à la mort d'Alexandre le Grand en -323. (WP le 07/11/18)",
+			"editorialNote": "Abbreviation ép (for époque) not present in PACTOLS thesaurus, but present in list of dated terms received from INRAP. Included as it is a commonly used alternative in French language"
+		},
+		"p02chr4v5fm": {
+			"id": "p02chr4v5fm",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtxsgw3KuHHl",
+			"label": "époque étrusque",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"ép étrusque",
+					"époque étrusque"
+				],
+				"en": [
+					"Etruscan Period"
+				],
+				"de": [
+					"Etruskerzeit"
+				],
+				"nl": [
+					"Etruskische periode"
+				],
+				"it": [
+					"periodo etrusco"
+				],
+				"es": [
+					"período etrusco"
+				],
+				"ar": [
+					"الفترة الأتروسكية"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0470"
+				},
+				"label": "-470"
+			},
+			"stop": {
+				"in": {
+					"year": "-0351"
+				},
+				"label": "-351"
+			},
+			"editorialNote": "Abbreviation ép (for époque) not present in PACTOLS thesaurus, but present in list of dated terms received from INRAP. Included as it is a commonly used alternative in French language\n"
+		},
+		"p02chr4qkk2": {
+			"id": "p02chr4qkk2",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtRJxa5OT7xR",
+			"label": "La Tène",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"La Tène"
+				],
+				"es": [
+					"La Tene"
+				],
+				"it": [
+					"La Tene"
+				],
+				"nl": [
+					"La Tène"
+				],
+				"de": [
+					"La-Tène-Zeit"
+				],
+				"ar": [
+					"لا تين"
+				],
+				"fr": [
+					"La Tène"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0450"
+				},
+				"label": "-450"
+			},
+			"stop": {
+				"in": {
+					"year": "-0051"
+				},
+				"label": "-51"
+			}
+		},
+		"p02chr4pz3h": {
+			"id": "p02chr4pz3h",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtxVmyWBbIQq",
+			"label": "Second âge du Fer",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"2e âge du Fer",
+					"2e Age du fer",
+					"Deuxième âge du Fer",
+					"Second âge du Fer"
+				],
+				"en": [
+					"Iron Age (second period)"
+				],
+				"nl": [
+					"Ijzertijd (tweede periode)"
+				],
+				"de": [
+					"Jüngere Eisenzeit"
+				],
+				"it": [
+					"Seconda età del ferro"
+				],
+				"es": [
+					"Segunda edad del hierro"
+				],
+				"ar": [
+					"عصر الحديد الثاني"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0450"
+				},
+				"label": "-450"
+			},
+			"stop": {
+				"in": {
+					"year": "-0051"
+				},
+				"label": "-51"
+			},
+			"note": "Correspondant à la culture de La Tène, le Second âge du Fer se développe en Europe entre environ 450 av. J.-C. et 25 av. J.-C. Considéré comme l'apogée de la civilisation celtique, il succède au Premier âge du Fer (Hallstatt, 1300-400 av. J.-C.) et s'achève avec la conquête romaine et les migrations germaniques. Son nom provient du site archéologique de La Tène découvert en 1857 à Marin-Epagnier, sur les bords du lac de Neuchâtel en Suisse. (D'après Wikipédia)"
+		},
+		"p02chr44tnn": {
+			"id": "p02chr44tnn",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtbm5GVtzrbP",
+			"label": "La Tène A",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"La Tène I",
+					"La Tène A"
+				],
+				"en": [
+					"La Tène I"
+				],
+				"de": [
+					"Früh-La-Tène-Zeit"
+				],
+				"es": [
+					"La Tene I"
+				],
+				"it": [
+					"La Tene I"
+				],
+				"nl": [
+					"La Tène I"
+				],
+				"ar": [
+					"1 لاتين"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0450"
+				},
+				"label": "-450"
+			},
+			"stop": {
+				"in": {
+					"year": "-0261"
+				},
+				"label": "-261"
+			}
+		},
+		"p02chr4nc2k": {
+			"id": "p02chr4nc2k",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtaFkrKZEXbs",
+			"label": "époque hellénistique",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"ép hellénistique",
+					"Asie hellénistique",
+					"Égypte hellénistique",
+					"Grèce hellénistique",
+					"époque hellénistique"
+				],
+				"en": [
+					"Hellenistic Period"
+				],
+				"it": [
+					"età ellenistica"
+				],
+				"de": [
+					"Hellenismus"
+				],
+				"nl": [
+					"Hellenistische periode"
+				],
+				"es": [
+					"período helenístico"
+				],
+				"ar": [
+					"عصر هلنستي"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0323"
+				},
+				"label": "-323"
+			},
+			"stop": {
+				"in": {
+					"year": "-0030"
+				},
+				"label": "-30"
+			},
+			"note": "323-31 av. J.C. - Période de l'Antiquité qui suit la conquête d’une partie du monde méditerranéen et de l’Asie par Alexandre le Grand jusqu’à la période romaine.",
+			"editorialNote": "Abbreviation ép (for époque) not present in PACTOLS thesaurus, but present in list of dated terms received from INRAP. Included as it is a commonly used alternative in French language\n"
+		},
+		"p02chr46pbd": {
+			"id": "p02chr46pbd",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtwNKI9ovkGB",
+			"label": "IIIe siècle av. J.-C.",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"IIIe siècle av J-C",
+					"IIIe siècle av. J.-C."
+				],
+				"en": [
+					"3rd century BC"
+				],
+				"de": [
+					"3. Jahrhundert v. Chr."
+				],
+				"nl": [
+					"derde eeuw voor Christus"
+				],
+				"it": [
+					"III secolo a. C."
+				],
+				"es": [
+					"siglo III a. C"
+				],
+				"ar": [
+					"القرن الثالث قبل الميلاد"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0300"
+				},
+				"label": "-300"
+			},
+			"stop": {
+				"in": {
+					"year": "-0201"
+				},
+				"label": "-201"
+			},
+			"editorialNote": "Alternative punctuation for av J-C was present in list of dated terms received from INRAP."
+		},
+		"p02chr4zcxz": {
+			"id": "p02chr4zcxz",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtpz5a27rtgG",
+			"label": "La Tène B",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"La Tène II",
+					"La Tène B"
+				],
+				"en": [
+					"La Tène II"
+				],
+				"es": [
+					"La Tene II"
+				],
+				"it": [
+					"La Tene II"
+				],
+				"nl": [
+					"La Tène II"
+				],
+				"de": [
+					"Mittel-La-Tène-Zeit"
+				],
+				"ar": [
+					"لاتين 2"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0260"
+				},
+				"label": "-260"
+			},
+			"stop": {
+				"in": {
+					"year": "-0151"
+				},
+				"label": "-151"
+			}
+		},
+		"p02chr4t3dk": {
+			"id": "p02chr4t3dk",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrt7R8JWIsRGo",
+			"label": "La Tène D",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"La Tène finale",
+					"La Tène D"
+				],
+				"en": [
+					"La Tène finale"
+				],
+				"nl": [
+					"Laat La Tène"
+				],
+				"ar": [
+					"لاتين الأخير"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0150"
+				},
+				"label": "-150"
+			},
+			"stop": {
+				"in": {
+					"year": "-0051"
+				},
+				"label": "-51"
+			}
+		},
+		"p02chr43zrc": {
+			"id": "p02chr43zrc",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtei2oEUwwbf",
+			"label": "La Tène C",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"La Tène III",
+					"La Tène C"
+				],
+				"en": [
+					"La Tène III"
+				],
+				"es": [
+					"La Tene III"
+				],
+				"it": [
+					"La Tene III"
+				],
+				"nl": [
+					"La Tène III"
+				],
+				"de": [
+					"Spät-La-Tène-Zeit"
+				],
+				"ar": [
+					"3 لاتين "
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0150"
+				},
+				"label": "-150"
+			},
+			"stop": {
+				"in": {
+					"year": "-0051"
+				},
+				"label": "-51"
+			}
+		},
+		"p02chr4n89v": {
+			"id": "p02chr4n89v",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtQRU0mOfGGo",
+			"label": "époque tardo-républicaine",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"ép tardo-républicaine",
+					"époque tardo-républicaine"
+				],
+				"en": [
+					"Late Republic Period"
+				],
+				"it": [
+					"età tardo-repubblicana"
+				],
+				"nl": [
+					"laat-Republikeinse periode"
+				],
+				"es": [
+					"período tardo-republicano"
+				],
+				"de": [
+					"Späte Republik"
+				],
+				"ar": [
+					"الفترة المتأخرة من عصر الجمهوري"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0133"
+				},
+				"label": "-133"
+			},
+			"stop": {
+				"in": {
+					"year": "-0027"
+				},
+				"label": "-27"
+			},
+			"editorialNote": "Abbreviation ép (for époque) not present in PACTOLS thesaurus, but present in list of dated terms received from INRAP. Included as it is a commonly used alternative in French language"
+		},
+		"p02chr4pb72": {
+			"id": "p02chr4pb72",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtnzSW6S4S5D",
+			"label": "Ier siècle av. J.-C.",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"Ier siècle av J-C",
+					"Ier siècle av. J.-C."
+				],
+				"en": [
+					"1st century BC"
+				],
+				"nl": [
+					"1ste eeuw voor Christus"
+				],
+				"de": [
+					"1. vorchristliche Jahrhundert"
+				],
+				"it": [
+					"I secolo a. C."
+				],
+				"es": [
+					"siglo I a. C"
+				],
+				"ar": [
+					"القرن الأول قبل الميلاد"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0100"
+				},
+				"label": "-100"
+			},
+			"stop": {
+				"in": {
+					"year": "-0001"
+				},
+				"label": "-1"
+			},
+			"editorialNote": "Alternative punctuation for av J-C was present in list of dated terms received from INRAP."
+		},
+		"p02chr4964n": {
+			"id": "p02chr4964n",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtZTmusVUU24",
+			"label": "Antiquité romaine",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"époque romaine",
+					"ép romaine",
+					"Romain",
+					"Antiquité romaine"
+				],
+				"en": [
+					"Roman Antiquity"
+				],
+				"it": [
+					"Antichità romana"
+				],
+				"es": [
+					"Antigüedad romana"
+				],
+				"nl": [
+					"Romeinse Oudheid"
+				],
+				"de": [
+					"Römische Antike"
+				],
+				"ar": [
+					"تاريخ قديم روماني"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0050"
+				},
+				"label": "-50"
+			},
+			"stop": {
+				"in": {
+					"year": "0499"
+				},
+				"label": "499"
+			}
+		},
+		"p02chr4847s": {
+			"id": "p02chr4847s",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtH5r3FYBpwe",
+			"label": "Haut-Empire romain",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"Haut-Empire",
+					"Haut Empire",
+					"Rome Haut-Empire",
+					"Rome Haut Empire",
+					"Haut-Empire romain"
+				],
+				"en": [
+					"Early Empire"
+				],
+				"es": [
+					"Alto Imperio"
+				],
+				"it": [
+					"Alto Impero"
+				],
+				"de": [
+					"Frühe Kaiserzeit"
+				],
+				"nl": [
+					"vroeg-Romeinse Keizerrijk"
+				],
+				"ar": [
+					"الامبراطورية العليا"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0050"
+				},
+				"label": "-50"
+			},
+			"stop": {
+				"in": {
+					"year": "0299"
+				},
+				"label": "299"
+			},
+			"note": "Il constitue, avec le Bas-Empire, une des deux découpes historiographiques de l'Empire romain telle que vue par les historiens français. Ces termes sont des concepts très usuels, mais leurs limites chronologiques respectives ne sont pas fixées de façon unanime. Elle désigne la première période de l’Empire romain, qui débute en 27 av. J.-C. avec le principat d'Auguste, et inclut le règne idéalisé des Antonins. (Wikipédia)"
+		},
+		"p02chr4hd5t": {
+			"id": "p02chr4hd5t",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtIkSWVMVuqB",
+			"label": "Empire romain",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"époque impériale",
+					"ép impériale",
+					"époque romaine impériale",
+					"ép romaine impériale",
+					"Gaule romaine",
+					"Rome Empire",
+					"Empire romain"
+				],
+				"en": [
+					"Roman Empire"
+				],
+				"es": [
+					"Imperio romano"
+				],
+				"it": [
+					"Impero romano"
+				],
+				"nl": [
+					"Romeinse Keizerrijk"
+				],
+				"de": [
+					"Römisches Reich"
+				],
+				"ar": [
+					"الإمبراطورية الرومانية"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0027"
+				},
+				"label": "-27"
+			},
+			"stop": {
+				"in": {
+					"year": "0499"
+				},
+				"label": "499"
+			},
+			"note": "Nom donné par les historiens à la domination romaine antique entre 27 av. J.-C. et 476 ap. J.-C. (Wikipédia)",
+			"editorialNote": "Abbreviation ép (for époque) not present in PACTOLS thesaurus, but present in list of dated terms received from INRAP. Included as it is a commonly used alternative in French language"
+		},
+		"p02chr4hxgd": {
+			"id": "p02chr4hxgd",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrt8cH0wF3OJa",
+			"label": "Empire romain d'Occident",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"Empire d'Occident",
+					"Empire romain d'Occident"
+				],
+				"en": [
+					"Western Empire"
+				],
+				"es": [
+					"Imperio de Occidente"
+				],
+				"it": [
+					"Impero d'Occidente"
+				],
+				"nl": [
+					"West-Romeinse Rijk"
+				],
+				"de": [
+					"Weströmisches Reich"
+				],
+				"ar": [
+					"امبراطورية الغرب"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0027"
+				},
+				"label": "-27"
+			},
+			"stop": {
+				"in": {
+					"year": "0476"
+				},
+				"label": "476"
+			},
+			"note": "jusqu'en 476"
+		},
+		"p02chr4zj4g": {
+			"id": "p02chr4zj4g",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtglKdV7BFE7",
+			"label": "époque augustéenne",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"ép augustéenne",
+					"Règne d'Auguste",
+					"époque augustéenne"
+				],
+				"en": [
+					"Augustan Age"
+				],
+				"nl": [
+					"bewind van Augustus"
+				],
+				"it": [
+					"regno di Augusto"
+				],
+				"es": [
+					"reino de Augusto"
+				],
+				"de": [
+					"Zeit des Augustus"
+				],
+				"ar": [
+					"عهد أوغسطس"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-0027"
+				},
+				"label": "-27"
+			},
+			"stop": {
+				"in": {
+					"year": "0014"
+				},
+				"label": "14"
+			},
+			"note": "27 av. J-C à 14 ap. J.C"
+		},
+		"p02chr4gzf5": {
+			"id": "p02chr4gzf5",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtxIASpSvPLz",
+			"label": "Ier siècle",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"1er s. ap. J.-C.",
+					"1er siècle",
+					"Ier siècle ap. J.-C.",
+					"premier siècle",
+					"Ier siècle ap J-C",
+					"Ier siècle"
+				],
+				"en": [
+					"1st century AD"
+				],
+				"de": [
+					"1. Jahrhundert n. Chr."
+				],
+				"nl": [
+					"eerste eeuw na Christus"
+				],
+				"it": [
+					"I secolo d. C."
+				],
+				"es": [
+					"siglo I d. C"
+				],
+				"ar": [
+					"القرن الأول الميلادي"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "0000"
+				},
+				"label": "0"
+			},
+			"stop": {
+				"in": {
+					"year": "0100"
+				},
+				"label": "100"
+			},
+			"note": "De l'an 1 à l'an 100."
+		},
+		"p02chr4bc46": {
+			"id": "p02chr4bc46",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtuPD5XmWr9q",
+			"label": "IIe siècle",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"IIe siècle ap J-C",
+					"2e siècle",
+					"deuxième siècle",
+					"IIe siècle ap. J.-C.",
+					"IIe siècle après J.-C.",
+					"IIe siècle"
+				],
+				"en": [
+					"2nd century AD"
+				],
+				"de": [
+					"2. Jahrhundert n. Chr."
+				],
+				"it": [
+					"II secolo d. C."
+				],
+				"es": [
+					"siglo II d. C"
+				],
+				"nl": [
+					"tweede eeuw na Christus"
+				],
+				"ar": [
+					"القرن الثاني الميلادي"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "0100"
+				},
+				"label": "100"
+			},
+			"stop": {
+				"in": {
+					"year": "0199"
+				},
+				"label": "199"
+			},
+			"note": "De l'an 101 à l'an 200."
+		},
+		"p02chr44dpt": {
+			"id": "p02chr44dpt",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtdxi5OGtqbo",
+			"label": "IIIe siècle",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"IIIe siècle ap J-C",
+					"3e siècle",
+					"IIIe siècle ap. J.-C.",
+					"IIIe siècle après J.-C.",
+					"troisième siècle",
+					"IIIe siècle"
+				],
+				"en": [
+					"3rd century AD"
+				],
+				"de": [
+					"3. Jahrhundert n. Chr."
+				],
+				"nl": [
+					"derde eeuw na Christus"
+				],
+				"it": [
+					"III secolo d. C."
+				],
+				"es": [
+					"siglo III d. C"
+				],
+				"ar": [
+					"القرن الثالث الميلادي"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "0200"
+				},
+				"label": "200"
+			},
+			"stop": {
+				"in": {
+					"year": "0299"
+				},
+				"label": "299"
+			},
+			"note": "De l'an 201 à l'an 300."
+		},
+		"p02chr45b7p": {
+			"id": "p02chr45b7p",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtwopiLhK1Ek",
+			"label": "Antiquité tardive",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"époque romaine tardive",
+					"ép romaine tardive",
+					"Antiquité tardive"
+				],
+				"en": [
+					"Late Antiquity"
+				],
+				"es": [
+					"Antigüedad tardía"
+				],
+				"nl": [
+					"late oudheid"
+				],
+				"de": [
+					"Spätantike"
+				],
+				"it": [
+					"Tarda antichità"
+				],
+				"ar": [
+					"أواخر التاريخ القديم"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "0300"
+				},
+				"label": "300"
+			},
+			"stop": {
+				"in": {
+					"year": "0499"
+				},
+				"label": "499"
+			}
+		},
+		"p02chr45md8": {
+			"id": "p02chr45md8",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrt0auHUwTKix",
+			"label": "Bas-Empire romain",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"Bas-Empire",
+					"Rome-Bas Empire",
+					"Bas-Empire romain"
+				],
+				"en": [
+					"Late Empire"
+				],
+				"es": [
+					"Bajo Imperio"
+				],
+				"it": [
+					"Basso Impero"
+				],
+				"de": [
+					"Hohe Kaiserzeit"
+				],
+				"nl": [
+					"laat-Romeinse Keizerrijk"
+				],
+				"ar": [
+					"الامبراطورية الدنيا"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "0300"
+				},
+				"label": "300"
+			},
+			"stop": {
+				"in": {
+					"year": "0499"
+				},
+				"label": "499"
+			},
+			"note": "Il constitue avec le Haut-Empire une des deux découpes historiographiques de l'Empire romain dans l'historiographie romaine vue par les historiens français. Ces termes sont des concepts très usuels, mais leurs limites chronologiques respectives ne sont pas fixées de façon unanime. On fixe la plupart du temps cette période entre les années 284 et 476.(Wikipédia)"
+		},
+		"p02chr49ngz": {
+			"id": "p02chr49ngz",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtJtdfJi709S",
+			"label": "IVe siècle",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"IVe siècle ap J-C",
+					"4e siècle",
+					"IVe siècle ap. J.-C.",
+					"IVe siècle après J-C",
+					"quatrième siècle",
+					"IVe siècle"
+				],
+				"en": [
+					"4th century AD"
+				],
+				"de": [
+					"4. Jahrhundert n. Chr."
+				],
+				"it": [
+					"IV secolo d. C."
+				],
+				"es": [
+					"siglo IV d. C"
+				],
+				"nl": [
+					"vierde eeuw na Christus"
+				],
+				"ar": [
+					"القرن الرابع الميلادي"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "0300"
+				},
+				"label": "300"
+			},
+			"stop": {
+				"in": {
+					"year": "0399"
+				},
+				"label": "399"
+			},
+			"note": "De l'an 301 à l'an 400."
+		},
+		"p02chr47td8": {
+			"id": "p02chr47td8",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrt10tmOzyG6A",
+			"label": "Ve siècle",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"5e siècle",
+					"cinquième siècle",
+					"Ve siècle ap. J.-C.",
+					"Ve siècle ap J-C",
+					"Ve siècle après J-C",
+					"Ve siècle"
+				],
+				"en": [
+					"5th century AD"
+				],
+				"de": [
+					"5. Jahrhundert n. Chr."
+				],
+				"es": [
+					"siglo V d. C"
+				],
+				"nl": [
+					"vijfde eeuw na Christus"
+				],
+				"it": [
+					"V secolo d. C."
+				],
+				"ar": [
+					"القرن الخامس الميلادي"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "0400"
+				},
+				"label": "400"
+			},
+			"stop": {
+				"in": {
+					"year": "0499"
+				},
+				"label": "499"
+			},
+			"note": "De l'an 401 à l'an 500."
+		},
+		"p02chr4zzqm": {
+			"id": "p02chr4zzqm",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtSv5AfuqLth",
+			"label": "Empire byzantin",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"Byzance-Empire",
+					"ép byzantine",
+					"époque byzantine",
+					"Empire byzantin"
+				],
+				"en": [
+					"Byzantine Empire"
+				],
+				"nl": [
+					"Byzantijnse Rijk"
+				],
+				"de": [
+					"Byzantinische Reich"
+				],
+				"es": [
+					"Imperio bizantino"
+				],
+				"it": [
+					"Impero bizantino"
+				],
+				"ar": [
+					"الإمبراطورية البيزنطية"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "0476"
+				},
+				"label": "476"
+			},
+			"stop": {
+				"in": {
+					"year": "1453"
+				},
+				"label": "1453"
+			},
+			"note": "395-1453"
+		},
+		"p02chr49bbg": {
+			"id": "p02chr49bbg",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrt52vb3I1FaL",
+			"label": "époque mérovingienne",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"ép mérovingienne",
+					"Mérovingien",
+					"époque mérovingienne"
+				],
+				"en": [
+					"Merovingian Period"
+				],
+				"it": [
+					"età merovingia"
+				],
+				"nl": [
+					"Merovingische tijd"
+				],
+				"de": [
+					"Merowingerzeit"
+				],
+				"es": [
+					"período merovingio"
+				],
+				"ar": [
+					"الفترة الميروفنجية"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "0481"
+				},
+				"label": "481"
+			},
+			"stop": {
+				"in": {
+					"year": "0751"
+				},
+				"label": "751"
+			}
+		},
+		"p02chr4693g": {
+			"id": "p02chr4693g",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtnJeQI8LVnr",
+			"label": "époque carolingienne",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"ép carolingienne",
+					"époque carolingienne"
+				],
+				"en": [
+					"Carolingian Period"
+				],
+				"it": [
+					"età carolingia"
+				],
+				"de": [
+					"Karolingerzeit"
+				],
+				"nl": [
+					"Karolingische tijd"
+				],
+				"es": [
+					"período carolingio"
+				],
+				"ar": [
+					"الفترة الكارولنجية"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "0751"
+				},
+				"label": "751"
+			},
+			"stop": {
+				"in": {
+					"year": "0999"
+				},
+				"label": "999"
+			},
+			"note": "De 751 à 987 en France ou 911 en Germanie (Rob.)"
+		},
+		"p02chr4zc8c": {
+			"id": "p02chr4zc8c",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtAQyKm9qosx",
+			"label": "époque médiévale",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"Moyen Âge",
+					"période médiévale",
+					"Moyen Age",
+					"ép médiévale",
+					"époque médiévale"
+				],
+				"en": [
+					"Medieval Period"
+				],
+				"es": [
+					"ep medieval"
+				],
+				"it": [
+					"età medievale"
+				],
+				"nl": [
+					"middeleeuwen"
+				],
+				"de": [
+					"Mittelalter"
+				],
+				"ar": [
+					"العصور الوسطى"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "0500"
+				},
+				"label": "500"
+			},
+			"stop": {
+				"in": {
+					"year": "1500"
+				},
+				"label": "1500"
+			}
+		},
+		"p02chr4scv9": {
+			"id": "p02chr4scv9",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtOA7J729U5c",
+			"label": "Haut Moyen Âge",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"Haut Moyen Age",
+					"Haut Moyen-Age",
+					"Haut-Moyen Age",
+					"Haut-Moyen-Age",
+					"Haut Moyen Âge"
+				],
+				"en": [
+					"Early Middle Ages"
+				],
+				"es": [
+					"Alto Medioevo"
+				],
+				"it": [
+					"Alto Medioevo"
+				],
+				"de": [
+					"Frühmittelalter"
+				],
+				"nl": [
+					"vroege middeleeuwen"
+				],
+				"ar": [
+					"العصور الوسطى الاولي"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "0500"
+				},
+				"label": "500"
+			},
+			"stop": {
+				"in": {
+					"year": "0999"
+				},
+				"label": "999"
+			},
+			"note": "Période historique qui commence en 476 par la chute du dernier empereur romain d'Occident, et s'achève en l'an 1000."
+		},
+		"p02chr42kfm": {
+			"id": "p02chr42kfm",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtcX8VinHMAs",
+			"label": "VIe siècle",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"6e siècle",
+					"sixième siècle",
+					"VIe siècle ap J-C",
+					"VIe siècle après J-C",
+					"VIe siècle"
+				],
+				"en": [
+					"6th century"
+				],
+				"nl": [
+					"6de eeuw"
+				],
+				"de": [
+					"6. Jahrhundert"
+				],
+				"es": [
+					"siglo VI"
+				],
+				"it": [
+					"VI secolo"
+				],
+				"ar": [
+					"القرن السادس"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "0500"
+				},
+				"label": "500"
+			},
+			"stop": {
+				"in": {
+					"year": "0599"
+				},
+				"label": "599"
+			},
+			"note": "De l'an 501 à l'an 600."
+		},
+		"p02chr43hrz": {
+			"id": "p02chr43hrz",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtYYbnfUPzvA",
+			"label": "VIIe siècle",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"7e siècle",
+					"septième siècle",
+					"VIIe siècle ap J-C",
+					"VIIe siècle après J-C",
+					"VIIe siècle"
+				],
+				"en": [
+					"7th century"
+				],
+				"nl": [
+					"7de eeuw"
+				],
+				"de": [
+					"7. Jahrhundert"
+				],
+				"es": [
+					"siglo VII"
+				],
+				"it": [
+					"VII secolo"
+				],
+				"ar": [
+					"القرن السابع"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "0600"
+				},
+				"label": "600"
+			},
+			"stop": {
+				"in": {
+					"year": "0699"
+				},
+				"label": "699"
+			},
+			"note": "De l'an 601 à l'an 700."
+		},
+		"p02chr46f3h": {
+			"id": "p02chr46f3h",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtOD0uWt4YFl",
+			"label": "époque islamique",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"ép islamique",
+					"période islamique",
+					"époque islamique"
+				],
+				"en": [
+					"Islamic World"
+				],
+				"nl": [
+					"Islamitische periode"
+				],
+				"de": [
+					"Muslimische Dynastien"
+				],
+				"it": [
+					"periodo islamico"
+				],
+				"es": [
+					"período islámico"
+				],
+				"ar": [
+					"الفترة الإسلامية"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "0622"
+				},
+				"label": "622"
+			},
+			"stop": {
+				"in": {
+					"year": "0750"
+				},
+				"label": "750"
+			}
+		},
+		"p02chr4x2n3": {
+			"id": "p02chr4x2n3",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtcEukQfEDmu",
+			"label": "époque des Omeyyades",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"époque des Umayyades",
+					"ép des Umayyades",
+					"Umayyades",
+					"époque des Omeyyades"
+				],
+				"en": [
+					"Umayyad era"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "0661"
+				},
+				"label": "661"
+			},
+			"stop": {
+				"in": {
+					"year": "0750"
+				},
+				"label": "750"
+			},
+			"note": "époque du règne de la dynastie arabe des Omeyyades sur le monde musulman de 661 à 750.",
+			"editorialNote": "English label not present in original source but required for data entry via http://Perio.do client. Obtained via Google translate"
+		},
+		"p02chr4j88w": {
+			"id": "p02chr4j88w",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtDZvr7Iohs1",
+			"label": "VIIIe siècle",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"8e siècle",
+					"huitième siècle",
+					"VIIIe siècle ap J-C",
+					"VIIIe siècle après J-C",
+					"VIIIe siècle"
+				],
+				"en": [
+					"8th century"
+				],
+				"de": [
+					"8. Jahrhundert"
+				],
+				"nl": [
+					"8ste eeuw"
+				],
+				"es": [
+					"siglo VIII"
+				],
+				"it": [
+					"VIII secolo"
+				],
+				"ar": [
+					"القرن الثامن"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "0700"
+				},
+				"label": "700"
+			},
+			"stop": {
+				"in": {
+					"year": "0799"
+				},
+				"label": "799"
+			},
+			"note": "De l'an 701 à l'an 800."
+		},
+		"p02chr43jbp": {
+			"id": "p02chr43jbp",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtKZxpG0Sl0r",
+			"label": "époque abbasside",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"ép abbasside",
+					"califat abbasside",
+					"Abbassides",
+					"Dynastie des Abbassides",
+					"époque abbasside"
+				],
+				"en": [
+					"Abbasids"
+				],
+				"nl": [
+					"Abbasiden"
+				],
+				"it": [
+					"Abbasidi"
+				],
+				"es": [
+					"Abbasíes"
+				],
+				"de": [
+					"Abbassiden"
+				],
+				"ar": [
+					"العصر العباسي"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "0750"
+				},
+				"label": "750"
+			},
+			"stop": {
+				"in": {
+					"year": "1258"
+				},
+				"label": "1258"
+			},
+			"note": "Epoque du califat sunnite qui gouverna le monde musulman de 750 à 1258. Sous les Abbassides, le centre de gravité de l'islam se déplace de la Syrie vers l'Irak où une nouvelle capitale est fondée en 762 : Bagdad. (d'après Wikipédia)"
+		},
+		"p02chr4p6z7": {
+			"id": "p02chr4p6z7",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtw8LrIgx2Fa",
+			"label": "IXe siècle",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"9e siècle",
+					"IXe siècle ap. J.-C.",
+					"IXe siècle après J-C",
+					"neuvième siècle",
+					"IXe siècle"
+				],
+				"en": [
+					"9th century"
+				],
+				"nl": [
+					"9de eeuw"
+				],
+				"de": [
+					"9. Jahrhundert"
+				],
+				"it": [
+					"IX secolo"
+				],
+				"es": [
+					"siglo IX"
+				],
+				"ar": [
+					"القرن التاسع"
+				]
+			},
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "0800"
+				},
+				"label": "800"
+			},
+			"stop": {
+				"in": {
+					"year": "0899"
+				},
+				"label": "899"
+			},
+			"note": "De l'an 801 à l'an 900."
+		},
+		"p02chr48pkw": {
+			"id": "p02chr48pkw",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtLRipu8fxhP",
+			"label": "Xe siècle",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"10e siècle",
+					"Dixième siècle",
+					"Xe siècle ap J-C",
+					"Xe siècle après J-C",
+					"Xe siècle"
+				],
+				"en": [
+					"10th century"
+				],
+				"nl": [
+					"10de eeuw"
+				],
+				"de": [
+					"10. Jahrhundert"
+				],
+				"es": [
+					"siglo X"
+				],
+				"it": [
+					"X secolo"
+				],
+				"ar": [
+					"القرن العاشر"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "0900"
+				},
+				"label": "900"
+			},
+			"stop": {
+				"in": {
+					"year": "0999"
+				},
+				"label": "999"
+			},
+			"note": "De l'an 901 à l'an 1000."
+		},
+		"p02chr458g8": {
+			"id": "p02chr458g8",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtAjWBVFSefH",
+			"label": "Moyen Age classique",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"ép romane",
+					"époque romane",
+					"Moyen Age central",
+					"Plein Moyen Age",
+					"Moyen Age classique"
+				],
+				"en": [
+					"Middle Ages"
+				],
+				"es": [
+					"Edad media"
+				],
+				"de": [
+					"Hochmittelalter"
+				],
+				"nl": [
+					"Hoge middeleeuwen"
+				],
+				"it": [
+					"Medioevo"
+				],
+				"ar": [
+					"القرون الوسطى الكلاسيكية"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "1000"
+				},
+				"label": "1000"
+			},
+			"stop": {
+				"in": {
+					"year": "1299"
+				},
+				"label": "1299"
+			},
+			"note": "Période qui comprend les XIe, XIIe et XIIIe siècles, située entre le Haut Moyen Âge et le Bas Moyen Âge."
+		},
+		"p02chr4n9s9": {
+			"id": "p02chr4n9s9",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtd5Dzv6B9KK",
+			"label": "XIe siècle",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"11e siècle",
+					"Onzième siècle",
+					"XIe siècle ap. J.-C.",
+					"XIe siècle après J-C",
+					"XIe siècle"
+				],
+				"en": [
+					"11th century"
+				],
+				"nl": [
+					"11de eeuw"
+				],
+				"de": [
+					"11. Jahrhundert"
+				],
+				"es": [
+					"siglo XI"
+				],
+				"it": [
+					"XI secolo"
+				],
+				"ar": [
+					"القرن الحادي عشر"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "1000"
+				},
+				"label": "1000"
+			},
+			"stop": {
+				"in": {
+					"year": "1099"
+				},
+				"label": "1099"
+			}
+		},
+		"p02chr4533p": {
+			"id": "p02chr4533p",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtk8XMiz0cBl",
+			"label": "XIIe siècle",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"12e siècle",
+					"Douzième siècle",
+					"XIIe siècle"
+				],
+				"en": [
+					"12th century"
+				],
+				"nl": [
+					"12de eeuw"
+				],
+				"de": [
+					"12. Jahrhundert"
+				],
+				"es": [
+					"siglo XII"
+				],
+				"it": [
+					"XII secolo"
+				],
+				"ar": [
+					"القرن الثاني عشر"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "1100"
+				},
+				"label": "1100"
+			},
+			"stop": {
+				"in": {
+					"year": "1199"
+				},
+				"label": "1199"
+			}
+		},
+		"p02chr4wwqn": {
+			"id": "p02chr4wwqn",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtcKcuXkQor4",
+			"label": "XIIIe siècle",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"13e siècle",
+					"Treizième siècle",
+					"XIIIe siècle"
+				],
+				"en": [
+					"13th century"
+				],
+				"nl": [
+					"13de eeuw"
+				],
+				"de": [
+					"13. Jahrhundert"
+				],
+				"es": [
+					"siglo XIII"
+				],
+				"it": [
+					"XIII secolo"
+				],
+				"ar": [
+					"القرن الثالث عشر"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "1200"
+				},
+				"label": "1200"
+			},
+			"stop": {
+				"in": {
+					"year": "1299"
+				},
+				"label": "1299"
+			}
+		},
+		"p02chr4qs8w": {
+			"id": "p02chr4qs8w",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrt306JKDoXp3",
+			"label": "Empire ottoman",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"Empire osmanli",
+					"Empire turc",
+					"Empire ottoman"
+				],
+				"en": [
+					"Ottoman Empire"
+				],
+				"es": [
+					"Imperio otomano"
+				],
+				"it": [
+					"Impero ottommanno"
+				],
+				"nl": [
+					"Ottomaans Rijk"
+				],
+				"de": [
+					"Ottomanisches Reich"
+				],
+				"ar": [
+					"الإمبراطورية العثمانية"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "1299"
+				},
+				"label": "1299"
+			},
+			"stop": {
+				"in": {
+					"year": "1923"
+				},
+				"label": "1923"
+			}
+		},
+		"p02chr49ctv": {
+			"id": "p02chr49ctv",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtkWqzTusoxz",
+			"label": "Bas Moyen Âge",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"Moyen Age tardif",
+					"Moyen Âge tardif",
+					"Bas Moyen Age",
+					"Second Moyen Age",
+					"Bas Moyen Âge"
+				],
+				"en": [
+					"Late Middle Ages"
+				],
+				"es": [
+					"Bajo Medioevo"
+				],
+				"it": [
+					"Basso Medioevo"
+				],
+				"nl": [
+					"Late middeleeuwen"
+				],
+				"de": [
+					"Spätmittelalter"
+				],
+				"ar": [
+					"العصور الوسطى المتأخرة"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "1300"
+				},
+				"label": "1300"
+			},
+			"stop": {
+				"in": {
+					"year": "1499"
+				},
+				"label": "1499"
+			},
+			"note": "Époque distinguée par l'historiographie pour désigner la fin du Moyen Âge en France, en particulier les XIVe et XVe siècles. Elle précède ainsi la Renaissance en succédant au Moyen Âge classique."
+		},
+		"p02chr4dvx3": {
+			"id": "p02chr4dvx3",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtSbDRQ7MHAT",
+			"label": "XIVe siècle",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"14e siècle",
+					"quatorzième siècle",
+					"XIVe siècle"
+				],
+				"en": [
+					"14th century"
+				],
+				"nl": [
+					"14de eeuw"
+				],
+				"de": [
+					"14. Jahrhundert"
+				],
+				"es": [
+					"siglo XIV"
+				],
+				"it": [
+					"XIV secolo"
+				],
+				"ar": [
+					"القرن الرابع عشر"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "1300"
+				},
+				"label": "1300"
+			},
+			"stop": {
+				"in": {
+					"year": "1399"
+				},
+				"label": "1399"
+			}
+		},
+		"p02chr4p35m": {
+			"id": "p02chr4p35m",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtJBNRTQx0S5",
+			"label": "XVe siècle",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"15e siècle",
+					"quinzième siècle",
+					"XVe siècle"
+				],
+				"en": [
+					"15th century"
+				],
+				"nl": [
+					"15de eeuw"
+				],
+				"de": [
+					"15. Jahrhundert"
+				],
+				"es": [
+					"siglo XV"
+				],
+				"it": [
+					"XV secolo"
+				],
+				"ar": [
+					"القرن الخامس عشر"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "1400"
+				},
+				"label": "1400"
+			},
+			"stop": {
+				"in": {
+					"year": "1499"
+				},
+				"label": "1499"
+			}
+		},
+		"p02chr478fd": {
+			"id": "p02chr478fd",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtPSEEZSBEJp",
+			"label": "époque moderne",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"Temps modernes",
+					"ép moderne",
+					"époque moderne"
+				],
+				"en": [
+					"Early modern period"
+				],
+				"it": [
+					"Età moderna"
+				],
+				"de": [
+					"Neuzeit"
+				],
+				"nl": [
+					"Nieuwe Tijd"
+				],
+				"es": [
+					"Tiempos Modernos"
+				],
+				"ar": [
+					"العصر الحديث"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "1492"
+				},
+				"label": "1492"
+			},
+			"stop": {
+				"in": {
+					"year": "1815"
+				},
+				"label": "1815"
+			}
+		},
+		"p02chr4qfhd": {
+			"id": "p02chr4qfhd",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtYR6hHAagHA",
+			"label": "Renaissance",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Renaissance"
+				],
+				"es": [
+					"Renacimiento"
+				],
+				"de": [
+					"Renaissance"
+				],
+				"nl": [
+					"Renaissance"
+				],
+				"it": [
+					"Rinascimento"
+				],
+				"ar": [
+					"عصر النهضة"
+				],
+				"fr": [
+					"Renaissance"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "1500"
+				},
+				"label": "1500"
+			},
+			"stop": {
+				"in": {
+					"year": "1699"
+				},
+				"label": "1699"
+			},
+			"note": "Période de l'époque moderne associée à la redécouverte de la littérature, de la philosophie et des sciences de l'Antiquité. (Wikipédia)"
+		},
+		"p02chr48tfr": {
+			"id": "p02chr48tfr",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrt2ttYsmEdhJ",
+			"label": "XVIe siècle",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"16e siècle",
+					"seizième siècle",
+					"XVIe siècle"
+				],
+				"en": [
+					"16th century"
+				],
+				"nl": [
+					"16de eeuw"
+				],
+				"de": [
+					"16. Jahrhundert"
+				],
+				"es": [
+					"siglo XVI"
+				],
+				"it": [
+					"XVI secolo"
+				],
+				"ar": [
+					"القرن السادس عشر"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "1500"
+				},
+				"label": "1500"
+			},
+			"stop": {
+				"in": {
+					"year": "1599"
+				},
+				"label": "1599"
+			}
+		},
+		"p02chr4qkmb": {
+			"id": "p02chr4qkmb",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrt5EJOqZH7wl",
+			"label": "XVIIe siècle",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"17e siècle",
+					"dix-septième siècle",
+					"XVIIe siècle"
+				],
+				"en": [
+					"17th century"
+				],
+				"nl": [
+					"17de eeuw"
+				],
+				"de": [
+					"17. Jahrhundert"
+				],
+				"es": [
+					"siglo XVII"
+				],
+				"it": [
+					"XVII secolo"
+				],
+				"ar": [
+					"القرن السابع عشر"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "1600"
+				},
+				"label": "1600"
+			},
+			"stop": {
+				"in": {
+					"year": "1699"
+				},
+				"label": "1699"
+			}
+		},
+		"p02chr45nkz": {
+			"id": "p02chr45nkz",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrt0AGwaqHbyN",
+			"label": "XVIIIe siècle",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"18e siècle",
+					"dix-huitième siècle",
+					"XVIIIe siècle"
+				],
+				"en": [
+					"18th century"
+				],
+				"nl": [
+					"18de eeuw"
+				],
+				"de": [
+					"18. Jahrhundert"
+				],
+				"es": [
+					"siglo XVIII"
+				],
+				"it": [
+					"XVIII secolo"
+				],
+				"ar": [
+					"القرن الثامن عشر"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "1700"
+				},
+				"label": "1700"
+			},
+			"stop": {
+				"in": {
+					"year": "1799"
+				},
+				"label": "1799"
+			}
+		},
+		"p02chr4f4sn": {
+			"id": "p02chr4f4sn",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtmo6TOPRSyR",
+			"label": "Révolution française",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"French Revolution"
+				],
+				"nl": [
+					"Franse Revolutie"
+				],
+				"de": [
+					"Französische Revolution"
+				],
+				"es": [
+					"Revolución francesa"
+				],
+				"it": [
+					"Rivoluzione francese"
+				],
+				"ar": [
+					"الثورة الفرنسية"
+				],
+				"fr": [
+					"Révolution française"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "1789"
+				},
+				"label": "1789"
+			},
+			"stop": {
+				"in": {
+					"year": "1799"
+				},
+				"label": "1799"
+			}
+		},
+		"p02chr44stv": {
+			"id": "p02chr44stv",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrt59R77d1H15",
+			"label": "époque contemporaine",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"ép contemporaine",
+					"période contemporaine",
+					"époque contemporaine"
+				],
+				"en": [
+					"Late modern period"
+				],
+				"es": [
+					"época contemporánea"
+				],
+				"it": [
+					"età contemporanea"
+				],
+				"de": [
+					"Moderne"
+				],
+				"nl": [
+					"Moderne Tijd"
+				],
+				"ar": [
+					"الفترة المعاصرة"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "1800"
+				},
+				"label": "1800"
+			},
+			"stop": {
+				"in": {
+					"year": "2000"
+				},
+				"label": "2000"
+			},
+			"note": "Du XIXe siècle à nos jours."
+		},
+		"p02chr48k3z": {
+			"id": "p02chr48k3z",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtlrjJOpjvFx",
+			"label": "XIXe siècle",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"19e siècle",
+					"dix-neuvième siècle",
+					"XIXe siècle"
+				],
+				"en": [
+					"19th century"
+				],
+				"nl": [
+					"19de eeuw"
+				],
+				"de": [
+					"19. Jahrhundert"
+				],
+				"es": [
+					"siglo XIX"
+				],
+				"it": [
+					"XIX secolo"
+				],
+				"ar": [
+					"القرن التاسع عشر"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "1800"
+				},
+				"label": "1800"
+			},
+			"stop": {
+				"in": {
+					"year": "1899"
+				},
+				"label": "1899"
+			}
+		},
+		"p02chr4jmwt": {
+			"id": "p02chr4jmwt",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtmvoF8X2tK6",
+			"label": "XXe siècle",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"20e siècle",
+					"vingtième siècle",
+					"XXe siècle"
+				],
+				"en": [
+					"20th century"
+				],
+				"de": [
+					"20. Jahrhundert"
+				],
+				"nl": [
+					"20ste eeuw"
+				],
+				"es": [
+					"siglo XX"
+				],
+				"it": [
+					"XX secolo"
+				],
+				"ar": [
+					"القرن العشرين"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "1900"
+				},
+				"label": "1900"
+			},
+			"stop": {
+				"in": {
+					"year": "1999"
+				},
+				"label": "1999"
+			}
+		},
+		"p02chr4btcm": {
+			"id": "p02chr4btcm",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrt1VRd5ZcUUi",
+			"label": "Antiquité égyptienne",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"de": [
+					"Altes Ägypten"
+				],
+				"en": [
+					"Ancient Egypt"
+				],
+				"it": [
+					"Antico Egitto"
+				],
+				"es": [
+					"Egipto antiguo"
+				],
+				"nl": [
+					"Oude Egypte"
+				],
+				"ar": [
+					"مصر القديمة"
+				],
+				"fr": [
+					"Antiquité égyptienne"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-3150"
+				},
+				"label": "-3150"
+			},
+			"stop": {
+				"in": {
+					"year": "-0030"
+				},
+				"label": "-30"
+			},
+			"note": "8000 av. J.-C.-30 ap. J.-C. : du Prédynastique ancien à la mort de Cléopâtre."
+		},
+		"p02chr4q5z6": {
+			"id": "p02chr4q5z6",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtJnTIFOPswS",
+			"label": "Atlantique (palynozone)",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"en": [
+					"Atlantic",
+					"Atlantic (period)"
+				],
+				"fr": [
+					"Atlantique",
+					"Atlantique (période)",
+					"Atlantique (palynozone)"
+				],
+				"it": [
+					"Atlantico (periodo)"
+				],
+				"es": [
+					"Atlántico (período)"
+				],
+				"nl": [
+					"Atlanticum"
+				],
+				"de": [
+					"Atlantikum"
+				],
+				"ar": [
+					"(أطلسي (فترة"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "-7500"
+				},
+				"label": "-7500"
+			},
+			"stop": {
+				"in": {
+					"year": "-3801"
+				},
+				"label": "-3801"
+			},
+			"note": "L'Atlantique est une palynozone et une chronozone de l'Holocène. Elle correspond à un optimum climatique entre -7500 et -3800. (Wikipédia)"
+		},
+		"p02chr4zcss": {
+			"id": "p02chr4zcss",
+			"type": "Period",
+			"url": "https://ark.frantiq.fr/ark:/26678/pcrtMgESJ9F9Hp",
+			"label": "Royaumes francs",
+			"language": "http://lexvo.org/id/iso639-1/fr",
+			"languageTag": "fr",
+			"localizedLabels": {
+				"fr": [
+					"ép franque",
+					"époque franque",
+					"Royaumes francs"
+				],
+				"en": [
+					"Frankish Period"
+				],
+				"it": [
+					"età dei Franchi"
+				],
+				"de": [
+					"Frankenreich"
+				],
+				"nl": [
+					"Frankische periode"
+				],
+				"es": [
+					"período franco"
+				],
+				"ar": [
+					"فترة الفرنجة"
+				]
+			},
+			"spatialCoverage": [
+				{
+					"id": "http://www.wikidata.org/entity/Q142",
+					"label": "France"
+				}
+			],
+			"spatialCoverageDescription": "France",
+			"start": {
+				"in": {
+					"year": "0400"
+				},
+				"label": "400"
+			},
+			"stop": {
+				"in": {
+					"year": "0899"
+				},
+				"label": "899"
+			},
+			"note": "Royaumes barbares qui se sont succédé ou ont cohabité en Europe occidentale (France, Belgique, Pays-Bas, Allemagne) après le déclin de l'Empire romain d'Occident et la conquête de ces territoires par les Francs au cours du Ve siècle. Ces royaumes ont perduré pendant tout le Haut Moyen Âge, du Ve au IXe siècle.(d'après Wikipédia)"
+		}
+	},
+	"source": {
+		"title": "PACTOLS chronology periods used in DOLIA data",
+		"yearPublished": "2021",
+		"creators": [
+			{
+				"name": "INRAP: Institut National de Recherches Archeologiques Preventive"
+			}
+		],
+		"url": "https://pactols.frantiq.fr/",
+		"citation": "PACTOLS chronology periods used in DOLIA data"
+	},
+	"editorialNote": "This is a subset of terms originating from the 'périodisation' hierarchy of PACTOLS thesaurus of the Frantiq network, representing terms frequently used in DOLIA data. For the full hierarchy see https://pactols.frantiq.fr/\nThis data is supplemented with dates supplied by INRAP for use in the ARIADNEplus project",
+	"@context": [
+		"http://n2t.net/ark:/99152/p0c",
+		{
+			"@base": "http://n2t.net/ark:/99152/"
+		}
+	],
+	"primaryTopicOf": {
+		"id": "p02chr4.json",
+		"inDataset": {
+			"id": "p0d",
+			"changes": "p0h#changes"
+		}
+	}
+}

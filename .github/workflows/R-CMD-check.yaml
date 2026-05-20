@@ -30,7 +30,7 @@ jobs:
       R_KEEP_PKG_SOURCE: yes
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - uses: r-lib/actions/setup-pandoc@v2
 
@@ -38,20 +38,6 @@ jobs:
         with:
           r-version: ${{ matrix.config.r }}
           http-user-agent: ${{ matrix.config.http-user-agent }}
-          use-public-rspm: true
-
-      - name: Install system dependencies
-        if: runner.os == 'Linux'
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y \
-            libfftw3-dev \
-            libjpeg-dev \
-            libpng-dev \
-            libtiff5-dev \
-            libxml2-dev \
-            libcurl4-openssl-dev \
-            libssl-dev
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
