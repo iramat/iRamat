@@ -51,7 +51,9 @@ jobs:
 
       # Coverage
       - name: Test coverage
+        if: matrix.config.os == 'ubuntu-latest'
         uses: r-lib/actions/test-coverage@v2
 
       - name: Upload coverage to Codecov
+        if: matrix.config.os == 'ubuntu-latest'
         uses: codecov/codecov-action@v5
