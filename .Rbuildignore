@@ -3,3 +3,4 @@
 doc/
 ^LICENSE\.md$
 ^\.github$
+^codecov\.yml$
