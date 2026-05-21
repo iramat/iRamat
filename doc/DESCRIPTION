@@ -10,15 +10,9 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports:
-    dplyr,
-    forcats,
-    ggplot2,
-    hash,
-    httr,
-    jsonlite,
-    purrr,
-    readr,
-    stringr
+    imager,
+    spatstat.geom,
+    spatstat.explore,
 RoxygenNote: 7.3.2
 Suggests: 
     testthat (>= 3.0.0),
