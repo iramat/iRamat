@@ -48,3 +48,10 @@ jobs:
         with:
           upload-snapshots: true
           build_args: 'c("--no-manual","--compact-vignettes=gs+qpdf")'
+
+      # Coverage
+      - name: Test coverage
+        uses: r-lib/actions/test-coverage@v2
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v5
