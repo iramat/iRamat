@@ -76,29 +76,6 @@ flush(stderr()); flush(stdout())
 
 
 
-cleanEx()
-nameEx("ppa")
-### * ppa
-
-flush(stderr()); flush(stdout())
-
-### Name: ppa
-### Title: Classify a Point Pattern Distribution
-### Aliases: ppa
-
-### ** Examples
-
-d <- ppa()
-# Show results of Quadrat test of the clustered distribution
-d$clustered_distribution.png$quadrat
-# Plot the K-Ripley of the clustered distribution
-plot(d$clustered_distribution.png$ripley, main = "clustered distribution")
-# Plot the G-function of the regular distribution
-plot(d$regular_distribution.png$gfunction, main = "regular distribution")
-
-
-
-
 ### * <FOOTER>
 ###
 cleanEx()

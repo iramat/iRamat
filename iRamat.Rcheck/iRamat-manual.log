@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.11)  20 MAY 2026 16:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.11)  21 MAY 2026 09:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**C:/Users/TH282424/AppData/Local/Temp/Rtmp4QFdiw/Rd2pdf3e0855d1295/Rd2.tex
-(C:/Users/TH282424/AppData/Local/Temp/Rtmp4QFdiw/Rd2pdf3e0855d1295/Rd2.tex
+**C:/Users/TH282424/AppData/Local/Temp/RtmpgdQW10/Rd2pdf11386e27e12/Rd2.tex
+(C:/Users/TH282424/AppData/Local/Temp/RtmpgdQW10/Rd2pdf11386e27e12/Rd2.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 
@@ -498,24 +498,13 @@ Overfull \hbox (272.22874pt too wide) in paragraph at lines 249--249
 n = "France")[] 
  []
 
+(Rd2.ind
 
-Overfull \hbox (1.47807pt too wide) in paragraph at lines 282--285
-\T1/ptm/m/n/10 and G-function (`"gfunc-tion"`). By de-fault: `c("quadrat", "rip
--ley", "gfunc-tion")`. 
- []
-
-LaTeX Info: Symbol \textrightarrow not provided by
-            font family ptm in TS1 encoding.
-            Default family used instead on input line 287.
-
-
-[5] (Rd2.ind
-
-[6]
+[5]
 
 
 
-[7
+[6
 
 
 ]) (Rd2.aux)
@@ -524,26 +513,25 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `Rd2.out' has not changed.
-(rerunfilecheck)             Checksum: 71274D017BB0272FCDBB9190AD6003C4;420.
+(rerunfilecheck)             Checksum: 35BEF1D39F62EA83ACDA9C86C9AC6E8D;362.
  ) 
 Here is how much of TeX's memory you used:
- 10646 strings out of 473523
- 162805 string characters out of 5713178
- 559159 words of memory out of 5000000
- 33659 multiletter control sequences out of 15000+600000
- 592725 words of font info for 79 fonts, out of 8000000 for 9000
+ 10634 strings out of 473523
+ 162678 string characters out of 5713178
+ 558159 words of memory out of 5000000
+ 33656 multiletter control sequences out of 15000+600000
+ 592390 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  92i,5n,95p,319b,733s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\TH282424\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\t
-crm1000.pk><C:/Users/TH282424/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-inconsolata/Inconsolata-zi4r.pfb><C:/Users/TH282424/AppData/Local/Programs/MiKT
-eX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/TH282424/AppData/Local/Programs/M
-iKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/TH282424/AppData/Local/Program
-s/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/TH282424/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (7 pages, 100598 bytes).
+<C:/Users/TH282424/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsola
+ta/Inconsolata-zi4r.pfb><C:/Users/TH282424/AppData/Local/Programs/MiKTeX/fonts/
+type1/urw/times/utmb8a.pfb><C:/Users/TH282424/AppData/Local/Programs/MiKTeX/fon
+ts/type1/urw/times/utmr8a.pfb><C:/Users/TH282424/AppData/Local/Programs/MiKTeX/
+fonts/type1/urw/times/utmr8a.pfb><C:/Users/TH282424/AppData/Local/Programs/MiKT
+eX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Rd2.pdf (6 pages, 94814 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 113 PDF objects out of 1000 (max. 8388607)
+ 31 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -283,71 +283,12 @@ Collected and merged 23 datasets. Total rows: 3513
 > 
 > 
 > 
-> cleanEx()
-> nameEx("ppa")
-> ### * ppa
-> 
-> flush(stderr()); flush(stdout())
-> 
-> ### Name: ppa
-> ### Title: Classify a Point Pattern Distribution
-> ### Aliases: ppa
-> 
-> ### ** Examples
-> 
-> d <- ppa()
-[1] "Will store the results in a new variable"
-[1] "Read image: clustered_distribution.png"
-trying URL 'https://raw.githubusercontent.com/iramat/iRamat/master/inst/extdata/clustered_distribution.png'
-Content type 'image/png' length 583 bytes
-==================================================
-downloaded 583 bytes
-
-[1] "...runs Quadrat test"
-[1] "...runs K-Ripley test"
-[1] "...runs G-function test"
-[1] "Read image: random_distribution.png"
-trying URL 'https://raw.githubusercontent.com/iramat/iRamat/master/inst/extdata/random_distribution.png'
-Content type 'image/png' length 737 bytes
-==================================================
-downloaded 737 bytes
-
-[1] "...runs Quadrat test"
-[1] "...runs K-Ripley test"
-[1] "...runs G-function test"
-[1] "Read image: regular_distribution.png"
-trying URL 'https://raw.githubusercontent.com/iramat/iRamat/master/inst/extdata/regular_distribution.png'
-Content type 'image/png' length 181 bytes
-==================================================
-downloaded 181 bytes
-
-[1] "...runs Quadrat test"
-[1] "...runs K-Ripley test"
-[1] "...runs G-function test"
-> # Show results of Quadrat test of the clustered distribution
-> d$clustered_distribution.png$quadrat
-
-	Chi-squared test of CSR using quadrat counts
-
-data:  pp
-X2 = 732.01, df = 24, p-value < 2.2e-16
-alternative hypothesis: two.sided
-
-Quadrats: 5 by 5 grid of tiles
-> # Plot the K-Ripley of the clustered distribution
-> plot(d$clustered_distribution.png$ripley, main = "clustered distribution")
-> # Plot the G-function of the regular distribution
-> plot(d$regular_distribution.png$gfunction, main = "regular distribution")
-> 
-> 
-> 
-> 
 > ### * <FOOTER>
 > ###
 > cleanEx()
 > options(digits = 7L)
 > base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
-Time elapsed:  1.62 0.04 6.25 NA NA 
+Time elapsed:  1 0.05 16.94 NA NA 
 > grDevices::dev.off()
 null device 
           1 

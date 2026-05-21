@@ -37,36 +37,8 @@ Original error: Not Found (HTTP 404).
 Dataset range PeriodO: -25 to 450
 Will store the results in a new variable (hash).
 Requesting: http://157.136.252.188:3000/dataset_adisser17
-[1] "Will store the results in a new variable"
-[1] "Read image: clustered_distribution.png"
-trying URL 'https://raw.githubusercontent.com/iramat/iRamat/master/inst/extdata/clustered_distribution.png'
-Content type 'image/png' length 583 bytes
-==================================================
-downloaded 583 bytes
-
-[1] "...runs Quadrat test"
-[1] "...runs K-Ripley test"
-[1] "...runs G-function test"
-[1] "Read image: random_distribution.png"
-trying URL 'https://raw.githubusercontent.com/iramat/iRamat/master/inst/extdata/random_distribution.png'
-Content type 'image/png' length 737 bytes
-==================================================
-downloaded 737 bytes
-
-[1] "...runs Quadrat test"
-[1] "...runs K-Ripley test"
-[1] "...runs G-function test"
-[1] "Read image: regular_distribution.png"
-trying URL 'https://raw.githubusercontent.com/iramat/iRamat/master/inst/extdata/regular_distribution.png'
-Content type 'image/png' length 181 bytes
-==================================================
-downloaded 181 bytes
-
-[1] "...runs Quadrat test"
-[1] "...runs K-Ripley test"
-[1] "...runs G-function test"
-[ FAIL 0 | WARN 0 | SKIP 0 | PASS 10 ]
+[ FAIL 0 | WARN 0 | SKIP 0 | PASS 9 ]
 > 
 > proc.time()
    user  system elapsed 
-   0.93    0.10    8.07 
+   0.64    0.07   10.04 
