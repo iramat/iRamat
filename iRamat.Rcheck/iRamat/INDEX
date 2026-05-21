@@ -1,5 +1,0 @@
-chrono                  Create a timeline of a selected dataset
-db_api_connect          Connect the CHIPS DB API and return an R object
-                        (dataframe, etc)
-periodo                 Create a timeline of periods from a PeriodO
-                        authority
